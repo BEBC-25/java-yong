@@ -1,0 +1,425 @@
+# 멋쟁이사자처럼 백엔드 부트캠프 25기 Java 프로그래밍 저장소
+
+# 1. 개발 환경 구축
+## 1.1 프로그램 설치
+- 본인의 OS에 맞는 버전 다운로드 후 기본 옵션으로 설치
+
+### 1.1.1 JDK (Eclipse Temurin) 설치
+#### 1) 다운로드
+- <https://adoptium.net/temurin/releases>
+
+#### 2) 설치
+- 기본 옵션으로 설치
+
+<img src="images/jdk/01.png" width="480">
+<img src="images/jdk/02.png" width="480">
+<img src="images/jdk/03.png" width="480">
+<img src="images/jdk/04.png" width="480">
+<img src="images/jdk/05.png" width="480">
+<img src="images/jdk/06.png" width="480">
+<img src="images/jdk/07.png" width="480">
+
+#### 3) 설치 확인
+##### 1. 터미널 실행
+- Windows: `Win(윈도우키)` + `R` 누른 후 `cmd` 입력
+- macOS: `Command(⌘)` + `Space` 누른 후 `terminal` 입력
+
+##### 2. 터미널에서 입력
+```bash
+java --version
+```
+
+#### 4) 기본 에디터로 Java 코드 실행 테스트
+##### 1. 터미널에서 수업에 사용할 폴더를 생성하고 해당 폴더로 이동
+- 예시
+```bash
+mkdir bebc25
+cd bebc25
+```
+
+##### 2. java 실습 폴더 생성
+- java 실습 폴더 생성 후 이동
+```bash
+# mkdir java_본인이니셜
+mkdir java_yong
+cd java_yong
+```
+
+##### 3. 코드를 작성할 폴더 생성 후 이동
+```bash
+mkdir workspace
+cd workspace
+```
+
+  <img src="images/01.png" width="480">
+
+##### 4. 텍스트 편집기 실행
+- Windows: `메모장` 실행
+  ```bash
+  notepad HelloWorld.java
+  ```
+- macOS: `텍스트 편집기` 실행
+  ```bash
+  # 파일 생성
+  touch HelloWorld.java
+  # TextEdit로 열기
+  open -e HelloWorld.java
+  ```
+  + 왼쪽 상단 메뉴 바에서 텍스트편집기 > 설정... 클릭 (또는 단축키 `Command(⌘)` + `,`)
+  + 새문서 탭 > 포맷 항목에서 `일반 텍스트` 선택
+  + 하단의 옵션에서 `Smart quotes and dashes in rich text documents only` 체크 ✅
+
+##### 5. 코드 작성
+```java
+public class HelloWorld {
+  public static void main(String[] args){
+    System.out.println("Hello World!!!");
+  }
+}
+```
+
+##### 6. 저장
+- Windows: `Ctrl` + `S`
+- macOS: `Command(⌘)` + `S`
+  + `.java'를 사용하시겠습니까, 아니면 '.txt'를 사용하시겠습니까?` 메세지가 나올 경우 `.java 사용` 클릭
+
+##### 7. 컴파일
+```bash
+# 아무런 메세지가 없으면 컴파일 성공
+# 에러 메세지가 있을 경우 에러 수정 후 다시 컴파일
+javac HelloWorld.java
+```
+
+##### 8. 실행
+```bash
+java HelloWorld
+```
+
+##### 9. 결과 확인
+```bash
+Hello World!!!
+```
+
+### 1.1.2 IntelliJ 설치
+
+#### 1) 다운로드
+- <https://www.jetbrains.com/idea/download>
+
+#### 2) 설치
+- 기본 옵션으로 설치
+
+<img src="images/intellij/01.png" width="480">
+<img src="images/intellij/02.png" width="480">
+<img src="images/intellij/03.png" width="480">
+<img src="images/intellij/04.png" width="480">
+<img src="images/intellij/05.png" width="480">
+<img src="images/intellij/06.png" width="480">
+
+#### 3) IntelliJ로 Java 코드 실행 테스트
+
+##### 1. IntelliJ IDEA 실행
+
+<img src="images/intellij/07.png" width="320">
+<img src="images/intellij/08.png" width="480">
+
+##### 2. Open > java_yong
+- [[2. java 실습 폴더 생성]](#2-java-실습-폴더-생성)에서 생성한 폴더 선택
+
+
+<img src="images/intellij/09.png" width="480">
+
+##### 3. 소스 코드 작성
+- workspace에서 마우스 우클릭 > New > Java Class
+- Name: NewHelloWorld
+```java
+void main(){
+    System.out.println("New Hello World!!!");
+}
+```
+
+##### 4. 실행
+- 단축 아이콘: IntelliJ 상단의 초록색 화살표 아이콘 눌러서 실행
+- 메뉴: Run > Run 'NewHelloWorld.java'
+- 단축키: Shift + F10
+
+##### 5. 결과 확인
+```bash
+New Hello World!!!
+```
+
+#### 4) IntelliJ 설정
+##### 1. 파일 인코딩 설정 (UTF-8)
+- 한글 깨짐 문제 해결
+- 메뉴 > Settings > Editor > File Encodings
+- Global Encoding, Project Encoding, Default encoding for properties files를 모두 UTF-8로 변경
+
+##### 2. 컴파일 시 자동 빌드
+- 개발 중 실시간 오류 감지
+- 메뉴 > Settings > Build, Execution, Deployment > Compiler
+- Build project automatically를 체크
+
+### 1.1.3 Git 설치
+
+#### 1) 다운로드
+- <https://git-scm.com/downloads>
+
+#### 2) Git 설치
+##### 1. 라이센스 동의 화면에서 `Next`
+<img src="images/git/01.png">
+
+##### 2. 설치 폴더 지정 화면에서 `Next`
+<img src="images/git/02.png">
+
+##### 3. 신규 폴더 생성 화면에서 `Next`
+<img src="images/git/03.png">
+
+##### 4. 설치할 요소 선택 화면에서 `Next`
+<img src="images/git/04.png">
+
+##### 5. 시작 메뉴에 추가 화면에서 `Next`
+<img src="images/git/05.png">
+
+##### 6. 커밋 메시지 입력시 사용할 기본 에디터 선택
+- `Use Notepad as Git's default editor`로 변경
+<img src="images/git/06.png">
+
+##### 7. 초기 브랜치 이름 변경
+- `Override the default branch name for new repositories` 선택
+- 브랜치명: `main`
+<img src="images/git/07.png">
+
+##### 8. git 명령어 path에 등록 여부 선택 화면에서 `Next`
+<img src="images/git/08.png">
+
+##### 9. ssh 명령어 선택 화면에서 `Next`
+<img src="images/git/09.png">
+
+##### 10. HTTPS 통신에 사용할 라이브러리 선택 화면에서 `Next`
+<img src="images/git/10.png">
+
+##### 11. 줄바꿈 기호 선택 화면에서 `Next`
+<img src="images/git/11.png">
+
+##### 12. 터미널 에뮬레이터 선택 화면에서 `Next`
+<img src="images/git/12.png">
+
+##### 13. Merge 기본 동작 선택 화면에서 `Next`
+<img src="images/git/13.png">
+
+##### 14. 사용자 인증 관리자 지정 화면에서 `Next`
+<img src="images/git/14.png">
+
+##### 15. 캐시 설정 화면에서 `Next`
+<img src="images/git/15.png">
+
+##### 16. 설치중
+<img src="images/git/16.png">
+
+##### 17. 설치 완료
+- 쉬는 시간에 컴퓨터 재시작
+<img src="images/git/17.png">
+
+#### 2) 설치 확인
+##### 1. 터미널(git bash) 실행
+- Windows 사용자는 `git bash`실행
+  + `Win(윈도우키)` 누른 후 `git bash` 입력
+- macOS 사용자는 `터미널` 실행
+  + `Command(⌘)` + `Space` 누른 후 `Terminal` 입력
+
+##### 2. 터미널(git bash)에서 입력
+```bash
+git --version
+```
+
+#### 3) GitHub 계정 생성
+- 회원 가입: <https://github.com/signup>
+
+#### 4) Git 설정
+
+##### 1. Commit시 사용할 기본 에디터 지정
+  + 현재 설정 확인
+    ```bash
+    git config core.editor
+    ```
+  + Windows: Git 설치 시 [[6. 커밋 메시지 입력시 사용할 기본 에디터 선택]](#6-커밋-메시지-입력시-사용할-기본-에디터-선택) 단계에서 `Notepad`로 선택했기 때문에 `core.editor`가 `notepad`로 설정되어 있음
+  + macOS
+    ```bash
+    # open: 파일을 여는 맥 전용 명령어
+    # -W: Wait, 파일을 닫을 때까지 터미널이 대기 (커밋 메시지 작성을 완료할 때까지 기다림)
+    # -n: new, 새로운 에디터 실행
+    # -e: editor, 텍스트 편집기(TextEdit)를 지정
+    git config --global core.editor "open -W -n -e"
+    ```
+
+##### 2. 기본 브랜치를 `main`으로 지정
+  + 현재 설정 확인
+    ```bash
+    git config init.defaultBranch
+    ```
+  + Windows: Git 설치 시 [[7. 초기 브랜치 이름 변경]](#7-초기-브랜치-이름-변경) 항목에서 `main`으로 지정했기 때문에 기본값이 `init.defaultBranch`가 `main`으로 설정되어 있음
+  + macOS
+    ```bash
+    git config --global init.defaultBranch main
+    ```
+
+##### 3. 줄바꿈 문자 처리 (autocrlf)
+- 윈도우는 줄바꿈에 CRLF를, 맥은 LF를 사용하므로 윈도우 사용자(CRLF)가 올린 파일을 맥 사용자(LF)가 내려받으면 줄바꿈 문자가 달라져서, 코드 수정이 없어도 파일 전체가 변경된 것으로 인식되는 문제 발생
+- 로컬에는 각자 플랫폼에 맞는 줄바꿈을 사용하고 저장소에는 항상 LF로 통일하기 위한 옵션
+- 현재 설정 확인
+  ```bash
+  git config core.autocrlf
+  ```
+- Windows: Git 설치 시 [[11. 줄바꿈 기호 선택 화면]](#11-줄바꿈-기호-선택-화면에서-next) 항목에서 기본값이 `core.autocrlf`가 `true`로 설정되어 있음
+  + 내보낼 때 (Commit): 윈도우의 CRLF를 Git 표준인 LF로 자동 변환해서 저장소에 올림
+  + 가져올 때 (Checkout): 저장소의 LF를 다시 윈도우 환경에 맞는 CRLF로 변환해서 내려받음
+- macOS: Commit 시에만 CRLF -> LF 변환하도록 지정
+  ```bash
+  git config --global core.autocrlf input
+  ```
+
+##### 4. 사용자 정보 등록
+```bash
+# 영문 실명 권장
+git config --global user.name "본인이름"
+# GitHub 계정과 연동을 위해 GitHub에 가입한 이메일주소 권장
+git config --global user.email "이메일주소"
+```
+
+##### 5. 등록한 전체 설정 확인
+```bash
+# Windows
+  # core.autocrlf=true
+  # init.defaultbranch=main
+  # core.editor=notepad
+  # user.name=kilyong jeong
+  # user.email=uzoolove@gmail.com
+# macOS
+  # core.autocrlf=input
+  # init.defaultbranch=main
+  # core.editor=open -W -n -e
+  # user.name=kilyong jeong
+  # user.email=uzoolove@gmail.com
+git config --list
+```  
+
+## 1.2 실습 준비
+
+### 1.2.1 Git으로 실습 폴더 관리
+- [[2. java 실습 폴더 생성]](#2-java-실습-폴더-생성)에서 생성한 폴더를 Git으로 관리
+
+#### 1) Git 저장소 초기화 (최초 한번만)
+- 해당 폴더를 Git이 관리하는 공간으로 선언
+- 이 명령어를 실행하면 폴더 내에 숨겨진 .git 디렉토리가 생성되며, 이때부터 Git이 파일의 변경 사항을 추적할 수 있게 됨
+```bash
+git init
+```
+
+#### 2) 파일을 스테이징 영역(Staging Area)에 추가
+- 새로운 파일 추적 (Track): Git이 아직 관리하지 않는 새 파일(Untracked)을 관리 대상에 포함
+- 수정 사항 기록: 이미 관리 중인 파일(Tracked)에서 발생한 변경 내용을 Staging Area(준비 영역)에 반영
+```bash
+# 현재 폴더의 특정 파일만 대상으로 할 경우
+# git add 파일명
+
+# 현재 폴더의 모든 파일을 대상으로 할 경우
+git add .
+```
+
+#### 3) 커밋 예정 파일 확인 (선택사항)
+```bash
+git status
+```
+
+#### 4) 최종 커밋 생성
+- 스테이징 영역에 올라온 파일들을 하나의 버전으로 기록
+- 커밋 메세지(작업 내역 설명)를 직접 입력할 경우
+  ```bash
+  git commit -m "첫 번째 커밋 메세지"
+  ```
+
+- [[1. Commit시 사용할 기본 에디터 지정]](#1-commit시-사용할-기본-에디터-지정) 에서 설정한 에디터로 커밋 메세지(작업 내역 설명)를 입력할 경우
+  ```bash
+  git commit
+  ```
+
+#### 5) 원격 레포지토리(저장소)에 변경사항 업로드
+##### 1. GitHub 레포지토리 생성
+- GitHub 접속: <https://github.com/>
+- 로그인
+- 우측 상단의 사용자 아이콘 클릭 > Repositories 선택
+- `New` 클릭
+  + Repository name: java-yong ([[2. java 실습 폴더 생성]](#2-java-실습-폴더-생성)에서 생성한 폴더명)
+  + Description: `멋쟁이 사자처럼 백엔드 부트캠프 25기 Java 저장소`
+  + `Create repository` 클릭
+- 레포지토리 주소 복사
+  + 레포지토리 화면에서 `Code` 선택시 나오는 주소 복사
+
+##### 2. 원격 레포지토리 주소 등록 (최초 한번만)
+```bash
+git remote add origin 레포지토리주소
+```
+
+##### 3. 원격 레포지토리에 변경사항 업로드
+- 최초로 push 할 경우
+  ```bash
+  # -u: 로컬의 main 브랜치와 원격 저장소(origin)의 main 브랜치를 연결
+  # origin: 위에서 등록한 레포지토리
+  # main: 브랜치명
+  git push -u origin main
+  ```
+  + GitHub 로그인 창이 뜨면 `Sigh in with your browser` 클릭해서 로그인
+
+    <img src="images/git/18.png" width="320">
+
+- 이후에 push 할 경우
+  ```bash
+  git push
+  ```
+
+#### 6) 첫번째 push 이후 코드 변경사항을 업로드 할때 필요한 명령어
+```bash
+# 현재 폴더의 모든 파일을 스테이징 영역(Staging Area)에 추가
+git add .
+# 스테이징 영역에 올라온 파일들을 하나의 버전으로 기록
+git commit -m "커밋 메세지 입력"
+# 원격 레포지토리에 업로드
+git push
+```
+
+### 1.2.2 원격 레포지토리 복사
+- 강사의 Java 실습 Github 주소
+  + <https://github.com/BEBC-25/java-yong>
+
+- 강사의 Java 실습 Github 레포지토리 주소
+  + <https://github.com/BEBC-25/java-yong.git>
+
+- 원격 레포지토리를 로컬에 복사
+  ```bash
+  # workspace 폴더에서 실행
+  git clone https://github.com/BEBC-25/java-yong.git
+  ```
+
+- 원격 레포지토리의 최신 변경사항 가져오기
+  ```bash
+  git pull
+  ```
+
+### 1.2.3 IntelliJ에서 소스코드의 차이점 비교
+- Student.js, Ins.js 파일 내용을 비교할 경우의 예시
+- IntelliJ의 Project 트리에서 Student.java 파일을 마우스 오른쪽 클릭하고 Compare With... 선택
+- 파일 선택창이 뜨면 Ins.js 선택
+- 두개의 파일이 나란히 보여지고 다른 부분이 표시됨
+
+# 참고 사이트
+## 자바 학습
+- 위키 독스 점프 투 자바: <https://wikidocs.net/book/31>
+- 위키 독스 프로그래밍 입문자를 위한 Java 기초: <https://wikidocs.net/book/2970>
+- Oracle Java Tutorials (dev.java): <https://dev.java/learn>
+
+## 코딩 테스트
+- 프로그래머스 코딩 테스트
+  + <https://school.programmers.co.kr/learn/challenges>
+  + 자바 기초 트레이닝: <https://school.programmers.co.kr/learn/challenges/training?languages=java>
+  + 자바 입문: <https://school.programmers.co.kr/learn/challenges/beginner?languages=java>
+  + 자바 레벨 1: <https://school.programmers.co.kr/learn/challenges?languages=java&levels=1>
+
