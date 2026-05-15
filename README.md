@@ -1,12 +1,15 @@
 # 멋쟁이사자처럼 백엔드 부트캠프 25기 Java 프로그래밍 저장소
 
+## 목차
+### [1. 자바 기초](docs/01.java_basic.md)
+
 # 1. 개발 환경 구축
 ## 1.1 프로그램 설치
 - 본인의 OS에 맞는 버전 다운로드 후 기본 옵션으로 설치
 
 ### 1.1.1 JDK (Eclipse Temurin) 설치
 #### 1) 다운로드
-- <https://adoptium.net/temurin/releases>
+- <https://adoptium.net/temurin/releases> 
 
 #### 2) 설치
 - 기본 옵션으로 설치
