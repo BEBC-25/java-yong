@@ -9,7 +9,7 @@
 
 ### 1.1.1 JDK (Eclipse Temurin) 설치
 #### 1) 다운로드
-- <https://adoptium.net/temurin/releases> 
+- <https://adoptium.net/temurin/releases>
 
 #### 2) 설치
 - 기본 옵션으로 설치
@@ -34,11 +34,28 @@ java --version
 
 #### 4) 기본 에디터로 Java 코드 실행 테스트
 ##### 1. 터미널에서 수업에 사용할 폴더를 생성하고 해당 폴더로 이동
-- 예시
-```bash
-mkdir bebc25
-cd bebc25
-```
+- Windows
+  ```bash
+  # 루트 디렉토리로 이동
+  cd \
+  # bebc25 폴더 생성
+  mkdir bebc25
+  # bebc25 폴더로 이동
+  cd bebc25
+  ```
+
+  - 액세스가 거부되었다는 오류 발생 시 탐색기 실행 후 C 드라이브에 `bebc25` 폴더 생성
+
+- Mac
+  ```bash
+  # 사용자 홈 디렉토리로 이동
+  cd ~
+  # bebc25 폴더 생성
+  mkdir bebc25
+  # bebc25 폴더로 이동
+  cd bebc25
+  ```
+
 
 ##### 2. java 실습 폴더 생성
 - java 실습 폴더 생성 후 이동
@@ -153,13 +170,21 @@ New Hello World!!!
 #### 4) IntelliJ 설정
 ##### 1. 파일 인코딩 설정 (UTF-8)
 - 한글 깨짐 문제 해결
-- 메뉴 > Settings > Editor > File Encodings
+- 메뉴 > File > Settings > Editor > File Encodings
 - Global Encoding, Project Encoding, Default encoding for properties files를 모두 UTF-8로 변경
 
 ##### 2. 컴파일 시 자동 빌드
 - 개발 중 실시간 오류 감지
 - 메뉴 > Settings > Build, Execution, Deployment > Compiler
 - Build project automatically를 체크
+
+##### 3. 에러 무시하고 실행
+- 다른 파일의 컴파일 에러를 무시하고 실행
+- 메뉴 > Run > Edit Configurations...
+- Edit configuration templates...
+- Application > Modify options > Add before launch task > Build, no error check 선택
+- `1. Build`는 x 눌러서 삭제 후 `OK`
+- 한번 더 `OK`
 
 ### 1.1.3 Git 설치
 
