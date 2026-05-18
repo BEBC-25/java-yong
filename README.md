@@ -180,7 +180,7 @@ New Hello World!!!
 ##### 3. 컴파일 시 자동 빌드
 - 개발 중 실시간 오류 감지
 - Main Menu > Settings > Build, Execution, Deployment > Compiler
-- Build project automatically를 체크
+- Build project automatically를 체크 ✅
 
 ##### 4. 에러 무시하고 실행
 - 다른 파일의 컴파일 에러를 무시하고 실행
