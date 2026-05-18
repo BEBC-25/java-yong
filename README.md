@@ -3,6 +3,46 @@
 ## 목차
 ### [1. 자바 기초](docs/01.java_basic.md)
 
+# 수업 진도
+<details>
+<summary>펼치기</summary>
+<details>
+<summary><h2>1주차 - 5일, 2026.05.15(금) ~ 2026.05.21(목)</h2></summary>
+
+<details>
+<summary><h3>1일차(2026.05.15 금)</h3></summary>
+
+#### 오전(3시간)
+- Java 레포지토리 README: <https://github.com/BEBC-25/java-yong>
+  + [💻 개발환경 구축](https://github.com/BEBC-25/java-yong/tree/main#1-개발-환경-구축)
+
+#### 오후(3시간)
+- [1. 프로그래밍의 이해](docs/01.java_basic.md#1-프로그래밍의-이해)
+
+</details>
+
+<details>
+<summary><h3>2일차(2026.05.18 월)</h3></summary>
+
+#### 오전(3시간)
+- 복습
+- [2. 자바(Java)의 탄생과 동작 방식](docs/01.java_basic.md#2-자바java의-탄생과-동작-방식)
+- [3. JVM의 동작 방식과 메모리](docs/01.java_basic.md#3-jvm의-동작-방식과-메모리)
+- [4. 개발 환경 구성](docs/01.java_basic.md#4-개발-환경-구성)
+  + [1.1.2 IntelliJ 설치](#112-intellij-설치)
+
+#### 오후(3시간)
+- [5. 데이터 타입과 변수](docs/01.java_basic.md#5-데이터-타입과-변수)
+  + [5.1 기본 데이터 타입(Primitive Type)](docs/01.java_basic.md#51-기본-데이터-타입primitive-type)
+  + [5.2 참조 데이터 타입(Reference Type)](docs/01.java_basic.md#52-참조-데이터-타입reference-type)
+  + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
+</details>
+
+
+
+</details>
+</details>
+
 # 1. 개발 환경 구축
 ## 1.1 프로그램 설치
 - 본인의 OS에 맞는 버전 다운로드 후 기본 옵션으로 설치
