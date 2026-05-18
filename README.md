@@ -168,22 +168,26 @@ New Hello World!!!
 ```
 
 #### 4) IntelliJ 설정
-##### 1. 파일 인코딩 설정 (UTF-8)
+##### 1. 언어 설정
+- IntelliJ의 메뉴가 한글로 나올 경우 영어로 설정
+- 메인 메뉴 > 설정... > 모양 및 동작 > 시스템 설정 > 언어 및 지역 > 언어: English로 선택하고 `적용`을 누르면 다시 시작할것인지 묻는 대화창에서 `다시 시작` 선택
+
+##### 2. 파일 인코딩 설정 (UTF-8)
 - 한글 깨짐 문제 해결
-- 메뉴 > File > Settings > Editor > File Encodings
+- Main Menu > File > Settings > Editor > File Encodings
 - Global Encoding, Project Encoding, Default encoding for properties files를 모두 UTF-8로 변경
 
-##### 2. 컴파일 시 자동 빌드
+##### 3. 컴파일 시 자동 빌드
 - 개발 중 실시간 오류 감지
-- 메뉴 > Settings > Build, Execution, Deployment > Compiler
+- Main Menu > Settings > Build, Execution, Deployment > Compiler
 - Build project automatically를 체크
 
-##### 3. 에러 무시하고 실행
+##### 4. 에러 무시하고 실행
 - 다른 파일의 컴파일 에러를 무시하고 실행
-- 메뉴 > Run > Edit Configurations...
+- Main Menu > Run > Edit Configurations...
 - Edit configuration templates...
 - Application > Modify options > Add before launch task > Build, no error check 선택
-- `1. Build`는 x 눌러서 삭제 후 `OK`
+- `1. Build`는 x 눌러서 삭제 후 `Apply` 누르고 `OK` 누름
 - 한번 더 `OK`
 
 ### 1.1.3 Git 설치
