@@ -3,6 +3,187 @@
 ## 목차
 ### [1. 자바 기초](docs/01.java_basic.md)
 
+
+# 수업 진도
+<details>
+<summary>펼치기</summary>
+<details>
+<summary><h2>1주차 - 2026.05.15(금) ~ 2026.05.21(목)</h2></summary>
+
+<details>
+<summary><h3>1일차(2026.05.15 금)</h3></summary>
+
+#### 오전(3시간)
+- Java 레포지토리 README: <https://github.com/BEBC-25/java-yong>
+  + [💻 개발환경 구축](https://github.com/BEBC-25/java-yong/tree/main#1-개발-환경-구축)
+
+#### 오후(3시간)
+- [1. 프로그래밍의 이해](docs/01.java_basic.md#1-프로그래밍의-이해)
+  + [1.1 프로그래밍이란?](docs/01.java_basic.md#11-프로그래밍이란)
+  + [1.2 컴파일러와 인터프리터](docs/01.java_basic.md#12-컴파일러와-인터프리터)
+  + [1.3 컴파일러 언어 vs. 인터프리터 언어](docs/01.java_basic.md#13-컴파일러-언어-vs-인터프리터-언어)
+  + [1.4 프로그래밍 패러다임](docs/01.java_basic.md#14-프로그래밍-패러다임)
+
+</details>
+
+<details>
+<summary><h3>2일차(2026.05.18 월)</h3></summary>
+
+#### 오전(3시간)
+- [2. 자바(Java)의 탄생과 동작 방식](docs/01.java_basic.md#2-자바java의-탄생과-동작-방식)
+  + [2.1 자바의 탄생](docs/01.java_basic.md#21-자바의-탄생)
+  + [2.2 자바의 특징](docs/01.java_basic.md#22-자바의-특징)
+- [3. JVM의 동작 방식과 메모리](docs/01.java_basic.md#3-jvm의-동작-방식과-메모리)
+  + [3.1 JVM (Java Virtual Machine) 구조](docs/01.java_basic.md#31-jvm-java-virtual-machine-구조)
+  + [3.2 실행 엔진 구성 요소](docs/01.java_basic.md#32-실행-엔진-구성-요소)
+- [4. 개발 환경 구성](docs/01.java_basic.md#4-개발-환경-구성)
+  + [4.1 JRE와 JDK](docs/01.java_basic.md#41-jre와-jdk)
+  + [4.2 IDE (Integrated Development Environment, 통합 개발 환경)](docs/01.java_basic.md#42-ide-integrated-development-environment-통합-개발-환경)
+  + 💻 실습 (HelloWorld 출력): [NewHelloWorld.java](workspace/NewHelloWorld.java)
+
+#### 오후(3시간)
+- [5. 데이터 타입과 변수](docs/01.java_basic.md#5-데이터-타입과-변수)
+  + [5.1 기본 데이터 타입(Primitive Type)](docs/01.java_basic.md#51-기본-데이터-타입primitive-type)
+  + [5.2 참조 데이터 타입(Reference Type)](docs/01.java_basic.md#52-참조-데이터-타입reference-type)
+  + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
+  + 💻 실습 (기본 자료형 및 변수 선언): [ch05/PrimitiveType.java](workspace/ch05/PrimitiveType.java)
+
+</details>
+
+<details>
+<summary><h3>3일차(2026.05.19 화)</h3></summary>
+
+#### 오전(3시간)
+- [5. 데이터 타입과 변수](docs/01.java_basic.md#5-데이터-타입과-변수)
+  + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
+  + [5.4 식별자와 예약어](docs/01.java_basic.md#54-식별자와-예약어)
+  + [5.5 형변환(Type Casting)](docs/01.java_basic.md#55-형변환type-casting)
+  + 💻 실습 (자동 및 강제 형변환): [ch05/TypeCastingTest.java](workspace/ch05/TypeCastingTest.java)
+
+#### 오후(3시간)
+- [6. 연산자](docs/01.java_basic.md#6-연산자)
+  + [6.1 산술 연산자](docs/01.java_basic.md#61-산술-연산자)
+  + [6.2 대입 연산자](docs/01.java_basic.md#62-대입-연산자)
+  + [6.3 증감 연산자](docs/01.java_basic.md#63-증감-연산자)
+  + [6.4 비교 연산자](docs/01.java_basic.md#64-비교-연산자)
+  + [6.5 논리 연산자](docs/01.java_basic.md#65-논리-연산자)
+  + [6.6 삼항 연산자](docs/01.java_basic.md#66-삼항-연산자)
+  + 💻 실습 (다양한 연산자 활용): [ch06/OperatorTest.java](workspace/ch06/OperatorTest.java)
+  + [6.7 연산자 우선순위](docs/01.java_basic.md#67-연산자-우선순위)
+  + 💻 실습 (연산자 우선순위): [ch06/OperatorPriorityTest.java](workspace/ch06/OperatorPriorityTest.java)
+  - 💻 문제 (연산자): [ch06/OperatorProb.java](workspace/ch06/OperatorProb.java)
+    - 💻 해결 (연산자): [ch06/OperatorSolve.java](workspace/ch06/OperatorSolve.java)
+
+</details>
+
+<details>
+<summary><h3>4일차(2026.05.20 수)</h3></summary>
+
+#### 오전(3시간)
+- [7. 조건문](docs/01.java_basic.md#7-조건문)
+  + [7.1 if 문](docs/01.java_basic.md#71-if-문)
+  + [7.2 if-else 문](docs/01.java_basic.md#72-if-else-문)
+  + [7.3 if-else if 문](docs/01.java_basic.md#73-if-else-if-문)
+  + 💻 실습 (if-else if 조건문): [ch07/IfTest.java](workspace/ch07/IfTest.java)
+  + 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/IfTest2.java](workspace/ch07/IfTest2.java)
+  + 💻 문제 (시험 점수(score)에 따른 학점 출력): [ch07/IfProb.java](workspace/ch07/IfProb.java)
+    - 💻 해결 (시험 점수(score)에 따른 학점 출력): [ch07/IfSolve.java](workspace/ch07/IfSolve.java)
+
+#### 오후(3시간)
+- [7. 조건문](docs/01.java_basic.md#7-조건문)
+  + [7.4 switch 문](docs/01.java_basic.md#74-switch-문)
+  - 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/SwitchTest.java](workspace/ch07/SwitchTest.java)
+  - 💻 실습 (회원 등급에 따른 할인 혜택 적용): [ch07/SwitchTest2.java](workspace/ch07/SwitchTest2.java)
+  - 💻 실습 (나이에 따른 입장료 할인 계산): [ch07/IfSwitchTest.java](workspace/ch07/IfSwitchTest.java)
+
+</details>
+
+<details>
+<summary><h3>5일차(2026.05.21 목)</h3></summary>
+
+#### 오전(3시간)
+- [7. 조건문](docs/01.java_basic.md#7-조건문)
+  + [7.5 Switch Expression](docs/01.java_basic.md#75-switch-expression)
+  + 💻 실습 (Switch Expression 활용): [ch07/SwitchExpressionTest.java](workspace/ch07/SwitchExpressionTest.java)
+
+#### 오후(3시간)
+- [8. 반복문](docs/01.java_basic.md#8-반복문)
+  + [8.1 while 문](docs/01.java_basic.md#81-while-문)
+  + 💻 실습 (while 반복문. 1부터 입력한 숫자까지의 합계): [ch08/WhileTest.java](workspace/ch08/WhileTest.java)
+  + 💻 실습 (while 반복문. 급여 계산): [ch08/WhileTest2.java](workspace/ch08/WhileTest2.java)
+  + 💻 실습 (while 반복문. 6이 나올때까지 주사위를 던져보자!!!): [ch08/WhileTest3.java](workspace/ch08/WhileTest3.java)
+  + [8.2 do-while 문](docs/01.java_basic.md#82-do-while-문)
+  + 💻 실습 (do-while 반복문): [ch08/DoWhileTest.java](workspace/ch08/DoWhileTest.java)
+
+</details>
+</details>
+
+<details>
+<summary><h2>2주차 -2026.05.22(금) ~ 2026.05.29(금)</h2></summary>
+
+<details>
+<summary><h3>6일차(2026.05.22 금)</h3></summary>
+
+#### 오전(3시간)
+- [8. 반복문](docs/01.java_basic.md#8-반복문)
+  + [8.3 for 문](docs/01.java_basic.md#83-for-문)
+  + 💻 실습 (for 반복문. 1부터 입력한 숫자까지의 합계): [ch08/ForTest.java](workspace/ch08/ForTest.java)
+  + 💻 실습 (for 반복문. 급여 계산): [ch08/ForTest2.java](workspace/ch08/ForTest2.java)
+  + 💻 문제 (for 반복문. 1~100 합계): [ch08/ForProb.java](workspace/ch08/ForProb.java)
+    + 💻 해결 (for 반복문. 1~100 합계): [ch08/ForSolve.java](workspace/ch08/ForSolve.java)
+  + 💻 실습 (for 반복문. 카운트 다운): [ch08/ForTest3.java](workspace/ch08/ForTest3.java)
+  + 💻 실습 (for 반복문. Scanner 사용. 구구단): [ch08/ForTest4.java](workspace/ch08/ForTest4.java)
+  + 💻 실습 (for 반복문. 계산기 프로그램): [ch08/CalculatorTest.java](workspace/ch08/CalculatorTest.java)
+  + 💻 실습 (중첩 for 반복문. 별찍기): [ch08/ForTest5.java](workspace/ch08/ForTest5.java)
+  + 💻 실습 (중첩 for 반복문. 1~9 구구단): [ch08/ForTest6.java](workspace/ch08/ForTest6.java)
+
+#### 오후(3시간)
+- [8. 반복문](docs/01.java_basic.md#8-반복문)
+  + [8.4 break와 continue](docs/01.java_basic.md#84-break와-continue)
+  + 💻 실습 (break와 continue. 1~100 홀수, 짝수 합계): [ch08/ForTest7.java](workspace/ch08/ForTest7.java)
+  + 💻 실습 (멋쟁이 전사처럼 게임 개발): [homework/h01/Game.java](workspace/homework/h01/Game.java)
+
+</details>
+
+<details>
+<summary><h3>7일차(2026.05.26 화)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>8일차(2026.05.27 수)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>9일차(2026.05.28 목)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>10일차(2026.05.29 금)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+</details>
+</details>
+
 # 1. 개발 환경 구축
 ## 1.1 프로그램 설치
 - 본인의 OS에 맞는 버전 다운로드 후 기본 옵션으로 설치
@@ -159,7 +340,7 @@ void main(){
 
 ##### 4. 실행
 - 단축 아이콘: IntelliJ 상단의 초록색 화살표 아이콘 눌러서 실행
-- 메뉴: Run > Run 'NewHelloWorld.java'
+- Main Menu: Run > Run 'NewHelloWorld.java'
 - 단축키: Shift + F10
 
 ##### 5. 결과 확인
