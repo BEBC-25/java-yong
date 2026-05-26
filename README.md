@@ -149,8 +149,19 @@
 <summary><h3>7일차(2026.05.26 화)</h3></summary>
 
 #### 오전(3시간)
-
++ 💻 과제 확인 (멋쟁이 전사처럼 게임 개발): [homework/h01](workspace/homework/h01)
+- [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
+  + [9.1 배열이란?](docs/01.java_basic.md#91-배열이란)
+  + 💻 실습 (배열 없이 총점, 평균 계산): [ch09/ScoreTest.java](workspace/ch09/ScoreTest.java)
+  + 💻 실습 (배열로 총점, 평균 계산): [ch09/ScoreArrayTest.java](workspace/ch09/ScoreArrayTest.java)
+  + [9.2 배열 선언, 생성, 초기화](docs/01.java_basic.md#92-배열-선언-생성-초기화)
+  + 💻 실습 (배열 기본 선언 및 생성): [ch09/ArrayBasic.java](workspace/ch09/ArrayBasic.java)
+  
 #### 오후(3시간)
+- [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
+  + [9.3 배열과 메모리 구조](docs/01.java_basic.md#93-배열과-메모리-구조)
+  + 💻 실습 (배열과 메모리 구조): [ch09/ArrayMemory.java](workspace/ch09/ArrayMemory.java)
+  + 💻 실습 (배열을 활용한 구구단): [ch09/ArrayForTest4.java](workspace/ch09/ArrayForTest4.java)
 
 </details>
 
