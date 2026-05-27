@@ -58,7 +58,7 @@
   + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
   + [5.4 식별자와 예약어](docs/01.java_basic.md#54-식별자와-예약어)
   + [5.5 형변환(Type Casting)](docs/01.java_basic.md#55-형변환type-casting)
-  + 💻 실습 (자동 및 강제 형변환): [ch05/TypeCastingTest.java](workspace/ch05/TypeCastingTest.java)
+    + 💻 실습 (자동 및 강제 형변환): [ch05/TypeCastingTest.java](workspace/ch05/TypeCastingTest.java)
 
 #### 오후(3시간)
 - [6. 연산자](docs/01.java_basic.md#6-연산자)
@@ -70,7 +70,7 @@
   + [6.6 삼항 연산자](docs/01.java_basic.md#66-삼항-연산자)
   + 💻 실습 (다양한 연산자 활용): [ch06/OperatorTest.java](workspace/ch06/OperatorTest.java)
   + [6.7 연산자 우선순위](docs/01.java_basic.md#67-연산자-우선순위)
-  + 💻 실습 (연산자 우선순위): [ch06/OperatorPriorityTest.java](workspace/ch06/OperatorPriorityTest.java)
+    + 💻 실습 (연산자 우선순위): [ch06/OperatorPriorityTest.java](workspace/ch06/OperatorPriorityTest.java)
   - 💻 문제 (연산자): [ch06/OperatorProb.java](workspace/ch06/OperatorProb.java)
     - 💻 해결 (연산자): [ch06/OperatorSolve.java](workspace/ch06/OperatorSolve.java)
 
@@ -92,9 +92,9 @@
 #### 오후(3시간)
 - [7. 조건문](docs/01.java_basic.md#7-조건문)
   + [7.4 switch 문](docs/01.java_basic.md#74-switch-문)
-  - 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/SwitchTest.java](workspace/ch07/SwitchTest.java)
-  - 💻 실습 (회원 등급에 따른 할인 혜택 적용): [ch07/SwitchTest2.java](workspace/ch07/SwitchTest2.java)
-  - 💻 실습 (나이에 따른 입장료 할인 계산): [ch07/IfSwitchTest.java](workspace/ch07/IfSwitchTest.java)
+    - 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/SwitchTest.java](workspace/ch07/SwitchTest.java)
+    - 💻 실습 (회원 등급에 따른 할인 혜택 적용): [ch07/SwitchTest2.java](workspace/ch07/SwitchTest2.java)
+    - 💻 실습 (나이에 따른 입장료 할인 계산): [ch07/IfSwitchTest.java](workspace/ch07/IfSwitchTest.java)
 
 </details>
 
@@ -104,16 +104,16 @@
 #### 오전(3시간)
 - [7. 조건문](docs/01.java_basic.md#7-조건문)
   + [7.5 Switch Expression](docs/01.java_basic.md#75-switch-expression)
-  + 💻 실습 (Switch Expression 활용): [ch07/SwitchExpressionTest.java](workspace/ch07/SwitchExpressionTest.java)
+    + 💻 실습 (Switch Expression 활용): [ch07/SwitchExpressionTest.java](workspace/ch07/SwitchExpressionTest.java)
 
 #### 오후(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.1 while 문](docs/01.java_basic.md#81-while-문)
-  + 💻 실습 (while 반복문. 1부터 입력한 숫자까지의 합계): [ch08/WhileTest.java](workspace/ch08/WhileTest.java)
-  + 💻 실습 (while 반복문. 급여 계산): [ch08/WhileTest2.java](workspace/ch08/WhileTest2.java)
-  + 💻 실습 (while 반복문. 6이 나올때까지 주사위를 던져보자!!!): [ch08/WhileTest3.java](workspace/ch08/WhileTest3.java)
+    + 💻 실습 (while 반복문. 1부터 입력한 숫자까지의 합계): [ch08/WhileTest.java](workspace/ch08/WhileTest.java)
+    + 💻 실습 (while 반복문. 급여 계산): [ch08/WhileTest2.java](workspace/ch08/WhileTest2.java)
+    + 💻 실습 (while 반복문. 6이 나올때까지 주사위를 던져보자!!!): [ch08/WhileTest3.java](workspace/ch08/WhileTest3.java)
   + [8.2 do-while 문](docs/01.java_basic.md#82-do-while-문)
-  + 💻 실습 (do-while 반복문): [ch08/DoWhileTest.java](workspace/ch08/DoWhileTest.java)
+    + 💻 실습 (do-while 반복문): [ch08/DoWhileTest.java](workspace/ch08/DoWhileTest.java)
 
 </details>
 </details>
@@ -127,20 +127,20 @@
 #### 오전(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.3 for 문](docs/01.java_basic.md#83-for-문)
-  + 💻 실습 (for 반복문. 1부터 입력한 숫자까지의 합계): [ch08/ForTest.java](workspace/ch08/ForTest.java)
-  + 💻 실습 (for 반복문. 급여 계산): [ch08/ForTest2.java](workspace/ch08/ForTest2.java)
-  + 💻 문제 (for 반복문. 1~100 합계): [ch08/ForProb.java](workspace/ch08/ForProb.java)
-    + 💻 해결 (for 반복문. 1~100 합계): [ch08/ForSolve.java](workspace/ch08/ForSolve.java)
-  + 💻 실습 (for 반복문. 카운트 다운): [ch08/ForTest3.java](workspace/ch08/ForTest3.java)
-  + 💻 실습 (for 반복문. Scanner 사용. 구구단): [ch08/ForTest4.java](workspace/ch08/ForTest4.java)
-  + 💻 실습 (for 반복문. 계산기 프로그램): [ch08/CalculatorTest.java](workspace/ch08/CalculatorTest.java)
-  + 💻 실습 (중첩 for 반복문. 별찍기): [ch08/ForTest5.java](workspace/ch08/ForTest5.java)
-  + 💻 실습 (중첩 for 반복문. 1~9 구구단): [ch08/ForTest6.java](workspace/ch08/ForTest6.java)
+    + 💻 실습 (for 반복문. 1부터 입력한 숫자까지의 합계): [ch08/ForTest.java](workspace/ch08/ForTest.java)
+    + 💻 실습 (for 반복문. 급여 계산): [ch08/ForTest2.java](workspace/ch08/ForTest2.java)
+    + 💻 문제 (for 반복문. 1~100 합계): [ch08/ForProb.java](workspace/ch08/ForProb.java)
+      + 💻 해결 (for 반복문. 1~100 합계): [ch08/ForSolve.java](workspace/ch08/ForSolve.java)
+    + 💻 실습 (for 반복문. 카운트 다운): [ch08/ForTest3.java](workspace/ch08/ForTest3.java)
+    + 💻 실습 (for 반복문. Scanner 사용. 구구단): [ch08/ForTest4.java](workspace/ch08/ForTest4.java)
+    + 💻 실습 (for 반복문. 계산기 프로그램): [ch08/CalculatorTest.java](workspace/ch08/CalculatorTest.java)
+    + 💻 실습 (중첩 for 반복문. 별찍기): [ch08/ForTest5.java](workspace/ch08/ForTest5.java)
+    + 💻 실습 (중첩 for 반복문. 1~9 구구단): [ch08/ForTest6.java](workspace/ch08/ForTest6.java)
 
 #### 오후(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.4 break와 continue](docs/01.java_basic.md#84-break와-continue)
-  + 💻 실습 (break와 continue. 1~100 홀수, 짝수 합계): [ch08/ForTest7.java](workspace/ch08/ForTest7.java)
+    + 💻 실습 (break와 continue. 1~100 홀수, 짝수 합계): [ch08/ForTest7.java](workspace/ch08/ForTest7.java)
   + 💻 실습 (멋쟁이 전사처럼 게임 개발): [homework/h01/Game.java](workspace/homework/h01/Game.java)
 
 </details>
@@ -152,25 +152,34 @@
 + 💻 과제 확인 (멋쟁이 전사처럼 게임 개발): [homework/h01](workspace/homework/h01)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.1 배열이란?](docs/01.java_basic.md#91-배열이란)
-  + 💻 실습 (배열 없이 총점, 평균 계산): [ch09/ScoreTest.java](workspace/ch09/ScoreTest.java)
-  + 💻 실습 (배열로 총점, 평균 계산): [ch09/ScoreArrayTest.java](workspace/ch09/ScoreArrayTest.java)
+    + 💻 실습 (배열 없이 총점, 평균 계산): [ch09/ScoreTest.java](workspace/ch09/ScoreTest.java)
+    + 💻 실습 (배열로 총점, 평균 계산): [ch09/ScoreArrayTest.java](workspace/ch09/ScoreArrayTest.java)
   + [9.2 배열 선언, 생성, 초기화](docs/01.java_basic.md#92-배열-선언-생성-초기화)
-  + 💻 실습 (배열 기본 선언 및 생성): [ch09/ArrayBasic.java](workspace/ch09/ArrayBasic.java)
+    + 💻 실습 (배열 기본 선언 및 생성): [ch09/ArrayBasic.java](workspace/ch09/ArrayBasic.java)
   
 #### 오후(3시간)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.3 배열과 메모리 구조](docs/01.java_basic.md#93-배열과-메모리-구조)
-  + 💻 실습 (배열과 메모리 구조): [ch09/ArrayMemory.java](workspace/ch09/ArrayMemory.java)
-  + 💻 실습 (배열을 활용한 구구단): [ch09/ArrayForTest4.java](workspace/ch09/ArrayForTest4.java)
-
+    + 💻 실습 (배열과 메모리 구조): [ch09/ArrayMemory.java](workspace/ch09/ArrayMemory.java)
+    + 💻 실습 (배열을 활용한 구구단): [ch09/ArrayForTest4.java](workspace/ch09/ArrayForTest4.java)
+  
 </details>
 
 <details>
 <summary><h3>8일차(2026.05.27 수)</h3></summary>
 
 #### 오전(3시간)
+- [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
+  + [9.4 다차원 배열](docs/01.java_basic.md#94-다차원-배열)
+    + 💻 실습 (다차원 배열 활용): [ch09/ArrayMulti.java](workspace/ch09/ArrayMulti.java)
+  + [9.5 향상된 for문](docs/01.java_basic.md#95-향상된-for문)
+    + 💻 실습 (향상된 for문 활용): [ch09/EnhancedFor.java](workspace/ch09/EnhancedFor.java)
 
 #### 오후(3시간)
+- [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
+  + [9.6 배열의 복사와 Arrays 클래스](docs/01.java_basic.md#96-배열의-복사와-arrays-클래스)
+    + 💻 실습 (배열 복사): [ch09/ArrayCopy.java](workspace/ch09/ArrayCopy.java)
+    + 💻 실습 (Arrays 클래스): [ch09/ArraysTest.java](workspace/ch09/ArraysTest.java)
 
 </details>
 
