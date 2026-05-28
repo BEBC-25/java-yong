@@ -187,8 +187,17 @@
 <summary><h3>9일차(2026.05.28 목)</h3></summary>
 
 #### 오전(3시간)
+- [10. 메서드(Method)](docs/01.java_basic.md#10-메서드method)
+  + [10.1 메서드(Method)란?](docs/01.java_basic.md#101-메서드method란)
+  + [10.2 메서드를 사용하는 이유와 장점](docs/01.java_basic.md#102-메서드를-사용하는-이유와-장점)
+  + [10.3 메서드 선언과 호출](docs/01.java_basic.md#103-메서드-선언과-호출)
 
 #### 오후(3시간)
+- [10. 메서드(Method)](docs/01.java_basic.md#10-메서드method)
+  + [10.4 main 메서드](docs/01.java_basic.md#104-main-메서드)
+  + [10.5 명령행 매개변수](docs/01.java_basic.md#105-명령행-매개변수)
+  + [10.6 메서드 오버로딩 (Overloading)](docs/01.java_basic.md#106-메서드-오버로딩-overloading)
+    + [10.6.1 메서드 오버로딩 사례](docs/01.java_basic.md#1061-메서드-오버로딩-사례)
 
 </details>
 
