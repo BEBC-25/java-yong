@@ -27,12 +27,26 @@ public class GameFunction {
     }
 
     static int heal(int hp){
-
+        hp += 5;
+        System.out.println("체력이 10 회복 되었다.");
+        System.out.println("남은 체력은 " + hp + "입니다.");
         return hp;
     }
 
-    static void useUltimateSkill(){
-
+    static void useUltimateSkill(int hp, int enemyHp, int ultimateSkill){
+        if(ultimateSkill > 0){
+            int chance = (int)(Math.random() * 2);
+            int enemyDamage = enemyHp * chance;
+            enemyHp -= enemyDamage;
+            int damage = 0;
+            ultimateSkill--;
+            System.out.println("궁극의 필살기를 사용했다.");
+            System.out.println("적에게 " + enemyDamage + "의 데미지를 주고 " + damage + "의 데미지를 입었다.");
+            System.out.println("나의 남은 체력은 " + hp + "입니다.");
+            System.out.println("적의 남은 체력은 " + enemyHp + "입니다.");
+        }else{
+            System.out.println("사용할 수 있는 필살기가 없습니다.");
+        }
     }
 
     public static void main(String[] args){
@@ -59,6 +73,8 @@ public class GameFunction {
                     // 싸우고 난 후의 수정된 hp, enemyHp를 적용한다.
                     hp = result[0];
                     enemyHp = result[1];
+
+                    hp = heal(hp);
                 }
                 case 2 -> {
                     // 현재의 hp를 전달해서 도망간다.
@@ -68,24 +84,10 @@ public class GameFunction {
                     enemyHp = result[1];
                 }
                 case 3 -> {
-                    hp += 10;
-                    System.out.println("체력이 10 회복 되었다.");
-                    System.out.println("남은 체력은 " + hp + "입니다.");
+                    hp = heal(hp);
                 }
                 case 4 -> {
-                    if(ultimateSkill > 0){
-                        int chance = (int)(Math.random() * 2);
-                        enemyDamage = enemyHp * chance;
-                        enemyHp -= enemyDamage;
-                        damage = 0;
-                        ultimateSkill--;
-                        System.out.println("궁극의 필살기를 사용했다.");
-                        System.out.println("적에게 " + enemyDamage + "의 데미지를 주고 " + damage + "의 데미지를 입었다.");
-                        System.out.println("나의 남은 체력은 " + hp + "입니다.");
-                        System.out.println("적의 남은 체력은 " + enemyHp + "입니다.");
-                    }else{
-                        System.out.println("사용할 수 있는 필살기가 없습니다.");
-                    }
+                    useUltimateSkill();
                 }
             }
 
