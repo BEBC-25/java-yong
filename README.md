@@ -2,7 +2,7 @@
 
 ## 목차
 ### [1. 자바 기초](docs/01.java_basic.md)
-
+### [2. 자바 심화](docs/02.java_advanced.md)
 
 # 수업 진도
 <details>
