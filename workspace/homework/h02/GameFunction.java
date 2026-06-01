@@ -64,10 +64,8 @@ public class GameFunction {
         System.out.println("캐릭터 이름을 지어주세요.");
         String name = s.next();
         int hp = 50; // 내 에너지
-        int damage = 0; // 내 피해량
         int ultimateSkill = 1; // 필살기 기술 수량
         int enemyHp = (int)(Math.random() * 90) + 10; // 적군 에너지, 10 ~ 99
-        int enemyDamage = 0; // 적군 피해량
         System.out.println(name + "님 어서오세요. 게임을 시작합니다.");
 
         while(hp > 0 && enemyHp > 0){
