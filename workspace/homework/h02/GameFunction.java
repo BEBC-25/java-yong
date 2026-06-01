@@ -28,12 +28,20 @@ public class GameFunction {
 
     static int heal(int hp){
         hp += 5;
-        System.out.println("체력이 10 회복 되었다.");
+        System.out.println("체력이 5 회복 되었다.");
         System.out.println("남은 체력은 " + hp + "입니다.");
         return hp;
     }
 
-    static void useUltimateSkill(int hp, int enemyHp, int ultimateSkill){
+    static void ending(int hp, int enemyHp){
+        if(hp <= 0){
+            System.out.println("당신은 사망했습니다. - The end -");
+        }else if(enemyHp <= 0){
+            System.out.println("전투에 승리했습니다. - The end -");
+        }
+    }
+
+    static int[] useUltimateSkill(int hp, int enemyHp, int ultimateSkill){
         if(ultimateSkill > 0){
             int chance = (int)(Math.random() * 2);
             int enemyDamage = enemyHp * chance;
@@ -47,6 +55,7 @@ public class GameFunction {
         }else{
             System.out.println("사용할 수 있는 필살기가 없습니다.");
         }
+        return new int[]{enemyHp, ultimateSkill};
     }
 
     public static void main(String[] args){
@@ -61,7 +70,7 @@ public class GameFunction {
         int enemyDamage = 0; // 적군 피해량
         System.out.println(name + "님 어서오세요. 게임을 시작합니다.");
 
-        while(true){
+        while(hp > 0 && enemyHp > 0){
             System.out.println(enemyHp + " 체력을 가진 적을 만났다. 어떤 행동을 하시겠습니까?");
             System.out.println("1) 싸운다 2) 도망간다 3) HP를 10 회복한다 4) 필살기 사용");
             int action = s.nextInt();
@@ -87,19 +96,13 @@ public class GameFunction {
                     hp = heal(hp);
                 }
                 case 4 -> {
-                    useUltimateSkill();
+                    int[] result = useUltimateSkill(hp, enemyHp, ultimateSkill);
+                    enemyHp = result[0];
+                    ultimateSkill = result[1];
                 }
             }
-
-            if(hp <= 0 || enemyHp <= 0){
-                break;
-            }
         }
 
-        if(hp <= 0){
-            System.out.println("당신은 사망했습니다. - The end -");
-        }else if(enemyHp <= 0){
-            System.out.println("전투에 승리했습니다. - The end -");
-        }
+        ending(hp, enemyHp);
     }
 }
