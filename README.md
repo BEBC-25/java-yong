@@ -205,12 +205,81 @@
 <summary><h3>10일차(2026.05.29 금)</h3></summary>
 
 #### 오전(3시간)
+- [10. 메서드(Method)](docs/01.java_basic.md#10-메서드method)
+  + [10.7 가변 인자(varargs, Variable Arguments)](docs/01.java_basic.md#107-가변-인자varargs-variable-arguments)
++ [1.1.3 Git 설치](#113-git-설치)
+  - [1) 다운로드](#1-다운로드-2)
+  - [2) Git 설치](#2-git-설치)
+  - [3) 설치 확인](#3-설치-확인)
+  - [4) GitHub 계정 생성](#4-github-계정-생성)
+  - [5) Git 설정](#5-git-설정)
+
+#### 오후(3시간)
+- [1.2 실습 준비](#12-실습-준비)
+  + [1.2.1 Git으로 실습 폴더 관리](#121-git으로-실습-폴더-관리)
+  + [1.2.2 원격 레포지토리 복사](#122-원격-레포지토리-복사)
+- [자바(Java) 프로그래밍 기초 내용 정리](docs/01.java_basic.md#자바java-프로그래밍-기초)
+
+</details>
+
+</details>
+
+<details>
+<summary><h2>3주차 -2026.06.21(월) ~ 2026.06.08(월)</h2></summary>
+
+<details>
+<summary><h3>11일차(2026.06.01 월)</h3></summary>
+
+#### 오전(3시간)
++ 💻 과제 확인 (멋쟁이 전사처럼 게임 개발 - 메서드로 수정): [homework/h02](workspace/homework/h02)
+
+#### 오후(3시간)
+- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_advanced.md#11-객체지향-프로그래밍oop-기초)
+  + [11.1 객체, 클래스, 인스턴스](docs/02.java_advanced.md#111-객체-클래스-인스턴스)
+    + 💻 실습 (학사 관리 시스템 클래스 설계): [ch11/lms](workspace/ch11/lms)
+  + [11.2 클래스의 구성 요소](docs/02.java_advanced.md#112-클래스의-구성-요소)
+    + 💻 실습 (자동차 클래스 작성 - 필드와 메서드): [ch11/mycar](workspace/ch11/mycar)
+
+</details>
+
+<details>
+<summary><h3>12일차(2026.06.02 화)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>13일차(2026.06.04 목)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>14일차(2026.06.05 금)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>15일차(2026.06.08 월)</h3></summary>
+
+#### 오전(3시간)
 
 #### 오후(3시간)
 
 </details>
 
 </details>
+
 </details>
 
 # 1. 개발 환경 구축
@@ -461,7 +530,7 @@ New Hello World!!!
 - 쉬는 시간에 컴퓨터 재시작
 <img src="images/git/17.png">
 
-#### 2) 설치 확인
+#### 3) 설치 확인
 ##### 1. 터미널(git bash) 실행
 - Windows 사용자는 `git bash`실행
   + `Win(윈도우키)` 누른 후 `git bash` 입력
@@ -473,10 +542,10 @@ New Hello World!!!
 git --version
 ```
 
-#### 3) GitHub 계정 생성
+#### 4) GitHub 계정 생성
 - 회원 가입: <https://github.com/signup>
 
-#### 4) Git 설정
+#### 5) Git 설정
 
 ##### 1. Commit시 사용할 기본 에디터 지정
   + 현재 설정 확인
