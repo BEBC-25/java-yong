@@ -246,8 +246,27 @@
 <summary><h3>12일차(2026.06.02 화)</h3></summary>
 
 #### 오전(3시간)
+- 자바 기초 시험 문제 풀이(객관식): [exam/java/basic/객관식.md](workspace/exam/java/basic/객관식.md)
+- 자바 기초 시험 문제 풀이(주관식 문제)[exam/java/basic/TodoList.java](workspace/exam/java/basic/TodoList.java)
+- 자바 기초 시험 문제 풀이(주관식 풀이)[exam/java/basic/TodoListSolve.java](workspace/exam/java/basic/TodoListSolve.java)
++ 💻 실습 (자동차 클래스 작성 - 생성자 추가): [ch11/mycar/ex02](workspace/ch11/mycar/ex02)
 
 #### 오후(3시간)
+- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_advanced.md#11-객체지향-프로그래밍oop-기초)
+  + [11.3 필드 (Field)](docs/02.java_advanced.md#113-필드-field)
+  + [11.4 객체의 생성과 사용 방법](docs/02.java_advanced.md#114-객체의-생성과-사용-방법)
+    + 💻 실습 (필드와 메서드 호출)
+      - [ch11/Person.java](workspace/ch11/Person.java)
+      - [ch11/PersonTest.java](workspace/ch11/PersonTest.java)
+  + [11.5 생성자 (Constructor)](docs/02.java_advanced.md#115-생성자-constructor)
+    + 💻 실습 (생성자 정의): [ch11/MemberTest.java](workspace/ch11/MemberTest.java)
+  + [11.6 생성자 오버로딩](docs/02.java_advanced.md#116-생성자-오버로딩)
+    + 💻 실습 (생성자 오버로딩, 하나의 소스에 두개의 클래스 정의): [ch11/BookTest.java](workspace/ch11/BookTest.java)
+  + [11.7 this와 this()](docs/02.java_advanced.md#117-this와-this)
+    + 💻 실습 (this() 사용): [ch11/BookTest.java](workspace/ch11/BookTest.java)
+  + [11.8 패키지와 임포트](docs/02.java_advanced.md#118-패키지와-임포트)
+    + 💻 실습 (패키지와 import): [ch11/pkg](workspace/ch11/pkg)
+  + [11.9 캡슐화와 접근 제어자](docs/02.java_advanced.md#119-캡슐화와-접근-제어자)
 
 </details>
 
