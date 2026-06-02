@@ -23,10 +23,11 @@ class Book {
 public class BookTest {
     public static void main(){
         Book book1 = new Book();
-//        book1.title = "자바 기초";
-//        book1.author = "자바의신";
+        book1.title = "자바 기초";
+        book1.author = "자바의신";
 
         Book book2 = new Book("자바를 자바라!", "용쌤");
+        book2.title = "바뀐 제목";
 
         System.out.println("제목: " + book1.title + ", 작가: " + book1.author);
         System.out.println("제목: " + book2.title + ", 작가: " + book2.author);
