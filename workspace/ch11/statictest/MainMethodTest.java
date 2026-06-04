@@ -16,7 +16,6 @@ public class MainMethodTest {
         // static 메서드를 그냥 호출
         staticMethod();
 
-
         // 두번째 방법
         // instance를 생성한 후 호출
         MainMethodTest m = new MainMethodTest();
