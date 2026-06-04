@@ -274,8 +274,18 @@
 <summary><h3>13일차(2026.06.04 목)</h3></summary>
 
 #### 오전(3시간)
++ [11.9 캡슐화와 접근 제어자](docs/02.java_advanced.md#119-캡슐화와-접근-제어자)
+  - 💻 실습 (캡슐화를 통해서 불필요한 sum 호출을 막음): [ch11/capsule/ex01](workspace/ch11/capsule/ex01)
+  - 💻 실습 (필드를 private으로 지정해서 외부의 직접 접근을 제한): [ch11/capsule/ex02](workspace/ch11/capsule/ex02)
+  - 💻 실습 (캡슐화가 안될 경우의 문제점): [ch11/capsule/ex03](workspace/ch11/capsule/ex03)
 
 #### 오후(3시간)
++ [11.10 정적(static) 멤버](docs/02.java_advanced.md#1110-정적static-멤버)
+  - 💻 실습 (static 필드와 메서드)
+    + [ch11/statictest/MathUtil.java](workspace/ch11/statictest/MathUtil.java)
+    + [ch11/statictest/MathUtilTest.java](workspace/ch11/statictest/MathUtilTest.java)
++ [11.11 변수의 종류와 비교 (지역 변수, 인스턴스 변수, 클래스 변수)](docs/02.java_advanced.md#1111-변수의-종류와-비교-지역-변수-인스턴스-변수-클래스-변수)
+  - 💻 실습 (static main 메서드) [ch11/statictest/MainMethodTest.java](workspace/ch11/statictest/MainMethodTest.java)
 
 </details>
 
