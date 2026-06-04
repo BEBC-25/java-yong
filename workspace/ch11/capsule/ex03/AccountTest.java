@@ -2,6 +2,7 @@ package ch11.capsule.ex03;
 
 public class AccountTest {
     public static void main(String[] args){
+//        AccountBad myAccount = new AccountBad();
         Account myAccount = new Account();
 
         // 10000원이 입금 되었습니다. 잔고는 10000원 입니다.
