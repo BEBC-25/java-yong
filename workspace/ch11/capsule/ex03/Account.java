@@ -4,6 +4,10 @@ public class Account {
     // 잔고
     private int balance;
 
+    public int getBalance() {
+        return balance;
+    }
+
     // 입금(amount 만큼 balance를 증가)
     public void deposit(int amount){
         if(amount > 0){
