@@ -9,6 +9,22 @@ public class Score {
     private int eng;
     private int math;
 
+    public int getKor() {
+        return kor;
+    }
+
+    public void setKor(int kor) {
+        this.kor = kor;
+    }
+
+    public int getEng() {
+        return eng;
+    }
+
+    public void setEng(int eng) {
+        this.eng = eng;
+    }
+
     // Getter 메서드
     public int getMath(){ // 수학 점수를 반환한다.
         return this.math;
@@ -16,7 +32,16 @@ public class Score {
 
     // Setter 메서드
     public void setMath(int math){ // 수학 점수를 새로운 값으로 교체한다.
-        this.math = math;
+        if(math > 100 || kor < 0){
+            System.out.println("math 값은 0 ~ 100 사이로 입력해야 됩니다.");
+        }else{
+            this.math = math;
+        }
+    }
+
+    public Score(int kor, int eng) {
+        this.kor = kor;
+        this.eng = eng;
     }
 
     Score(int kor, int eng, int math){

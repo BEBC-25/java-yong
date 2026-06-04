@@ -12,7 +12,8 @@ public class ScoreTest {
         double haruAvg = haru.avg();
         System.out.println("하루의 평균: " + haruAvg);
 
-        haru.setMath(haru.getMath() + 5);
+        haru.setMath(haru.getMath() * 5);
+//        haru.setMath(haru.getMath() + 5);
 
         haruAvg = haru.avg();
         System.out.println("하루의 수정된 평균: " + haruAvg);
