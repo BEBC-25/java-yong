@@ -14,6 +14,6 @@ public class AccountTest {
         // 잔고가 부족합니다. 잔고는 5000원 입니다.
         myAccount.withdraw(10000);
 
-        System.out.println("현재 잔고: " + myAccount.getBalance());
+        System.out.println("현재 잔고:" + myAccount.getBalance());
     }
 }
