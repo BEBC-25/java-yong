@@ -4,8 +4,8 @@ public class Test {
 
     public static void main(String[] args){
 //        Parent p = new Parent("부모");
-//        Son p = new Son("아들");
-        Daughter p = new Daughter("딸");
+        Son p = new Son("아들");
+//        Daughter p = new Daughter("딸");
 
         dailySchedule(p);
     }
