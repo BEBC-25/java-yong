@@ -1,5 +1,6 @@
 package ch11.capsule.ex03;
 
+// 잔고를 직접 수정할 수 없고 입출금 로직을 통해서만 가능함
 public class Account {
     // 잔고
     private int balance;
@@ -14,7 +15,7 @@ public class Account {
             this.balance += amount;
             System.out.println(amount + "원이 입금 되었습니다. 잔고는 " + balance + "원 입니다.");
         }else{
-            System.out.println("입금액이 잘못 되었습니다.");
+            System.out.println("입금액이 잘못 되었습니다. ");
         }
     }
 

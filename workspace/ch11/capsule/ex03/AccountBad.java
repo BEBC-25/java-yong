@@ -1,5 +1,6 @@
 package ch11.capsule.ex03;
 
+// 잔고를 직접 수정할 수 있어서 입출금 메서드의 체크 로직이 무력화 됨
 public class AccountBad {
     // 잔고
     public int balance;
