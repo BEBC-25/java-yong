@@ -9,6 +9,7 @@ public class Bus extends Car{
     private int price; // 승차비
     private int maxPassenger; // 최대 승객수
     private int money; // 현재까지의 수익
+    private int totalPassenger; // 총 승차 인원
     private int totalMoney; // 운영하는 모든 버스의 수익
 
     // 컴파일러에 의해서 자동으로 생성되는 기본 생성자 모습
@@ -26,6 +27,9 @@ public class Bus extends Car{
 
     // 승차합니다.
     void ride(){
+        // 수익 증가
+        // 어린이 / 청소년 / 성인 / 노인별 할인율 적용해서 할인
+        // 교통카드 / 현금 / 기타 할인 (지역 주민 할인, 특정 카드 이용시 할인)
         if(passengerCount < maxPassenger) {
             passengerCount++;
             System.out.println("1명이 승차합니다.");
