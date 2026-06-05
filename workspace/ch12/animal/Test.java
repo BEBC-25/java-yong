@@ -18,19 +18,33 @@ public class Test {
         animalCare(c);
     }
 
-    // 강아지 관리 서비스
-    static void animalCare(Dog a){
+    // 동물 관리 서비스
+    static void animalCare(Animal a){
+        // Animal.eat()를 호출하는 동일한 코드지만
+        // 실제 생성된 객체의 오버라이딩 된 메서드가 호출됨
+        // 3년뒤 신입사원 보거라!!! 오늘은 2023년 05월 13일이다.
+        // 니가 2026.06.05일에 Cat의 eat() 메서드 만들것을 난 이미 알고 있다.
+        // 나의 a.eat() 너의 Cat.eat()를 호출하게 될 것이다.
         a.eat();
         a.move();
         a.sleep();
-        a.bark(); // Animal에는 정의되어 있지 않음
+//        a.bark();
+//        a.liquefy();
     }
 
+    // 강아지 관리 서비스
+//    static void animalCare(Dog a){
+//        a.eat();
+//        a.move();
+//        a.sleep();
+//        a.bark(); // Animal에는 정의되어 있지 않음
+//    }
+
     // 고양이 관리 서비스
-    static void animalCare(Cat a){
-        a.eat();
-        a.move();
-        a.liquefy(); // Animal에는 정의되어 있지 않음
-        a.sleep();
-    }
+//    static void animalCare(Cat a){
+//        a.eat();
+//        a.move();
+//        a.liquefy(); // Animal에는 정의되어 있지 않음
+//        a.sleep();
+//    }
 }
