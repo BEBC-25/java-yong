@@ -13,7 +13,40 @@ public class BusTest {
         mycar.speedUp();
         mycar.stop();
 
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+
         mycar.start();
+        mycar.speedUp();
+        mycar.stop();
+        mycar.ride();
+        mycar.ride();
+        mycar.leave();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+
+        mycar.start();
+        mycar.speedUp();
+        mycar.speedUp();
+        mycar.speedUp();
+        mycar.speedDown();
+        mycar.stop();
+        mycar.leave();
+        mycar.leave();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
+        mycar.ride();
 
         System.out.println(mycar.getBusInfo());
     }

@@ -8,6 +8,8 @@ public class Bus extends Car{
     private int station; // 현재 위치
     private int price; // 승차비
     private int maxPassenger; // 최대 승객수
+    private int money; // 현재까지의 수익
+    private int totalMoney; // 운영하는 모든 버스의 수익
 
     // 컴파일러에 의해서 자동으로 생성되는 기본 생성자 모습
 //    Bus(){ super(); }
@@ -45,7 +47,14 @@ public class Bus extends Car{
         if(station == stations.length){
             station = 0;
         }
-        System.out.println("이번역은 " + stations[station] + "역 입니다. This stop is xxx.");
+        System.out.println("이번역은 " + stations[station] + "역 입니다.");
+    }
+
+    // 기다리는 버스가 몇 정거장 전에 있는가?
+    int getStationsLeft(){
+        int result = 0;
+
+        return result;
     }
 
     // 버스의 현재 상태를 출력합니다.
@@ -56,5 +65,4 @@ public class Bus extends Car{
             + ", 남은 좌석: " + (maxPassenger-passengerCount)
             + ", 요금: " + price;
     }
-
 }
