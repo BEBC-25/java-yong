@@ -293,8 +293,15 @@
 <summary><h3>14일차(2026.06.05 금)</h3></summary>
 
 #### 오전(3시간)
+- [12. 객체지향 심화 - 상속(Inheritance)](docs/02.java_advanced.md#12-객체지향-심화---상속inheritance)
+  + [12.1 상속의 개념](docs/02.java_advanced.md#121-상속의-개념)
+    - 💻 실습 (Parent, Son, Doughter 상속) [ch12/familly/ex01](workspace/ch12/familly/ex01)
 
 #### 오후(3시간)
++ [12.2 메서드 오버라이딩](docs/02.java_advanced.md#122-메서드-오버라이딩)
+  - 💻 실습 (Animal, Dog, Cat 상속) [ch12/animal](workspace/ch12/animal)
++ [12.3 super와 super()](docs/02.java_advanced.md#123-super와-super)
+  - 💻 실습 (Car, Bus 상속) [ch12/car](workspace/ch12/car)
 
 </details>
 
@@ -302,8 +309,16 @@
 <summary><h3>15일차(2026.06.08 월)</h3></summary>
 
 #### 오전(3시간)
++ [12.4 final 키워드와 상속](docs/02.java_advanced.md#124-final-키워드와-상속)
+  + [12.5 Object 클래스](docs/02.java_advanced.md#125-object-클래스)
+    - 💻 실습 (toString(), equals(), hashCode() 오버라이딩) [ch12/car](workspace/ch12/car)
+  + [12.6 클래스 관계 설계: 포함(Has-A) vs 상속(Is-A)](docs/02.java_advanced.md#126-클래스-관계-설계-포함has-a-vs-상속is-a)
 
 #### 오후(3시간)
+- [13. 객체지향 심화 - 다형성(Polymorphism)과 인터페이스](docs/02.java_advanced.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
+  + [13.1 다형성](docs/02.java_advanced.md#131-다형성)
+  + [13.2 instanceof 연산자](docs/02.java_advanced.md#132-instanceof-연산자)
+    - 💻 실습 (Parent, Son, Doughter 업캐스팅, 다운캐스팅) [ch12/familly/ex02](workspace/ch12/familly/ex02)
 
 </details>
 
