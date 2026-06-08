@@ -1,6 +1,7 @@
 package ch12.car;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Bus extends Car{
     private int passengerCount; // 승객 수
@@ -104,5 +105,17 @@ public class Bus extends Car{
                 ", totalPassenger=" + totalPassenger +
                 ", totalMoney=" + totalMoney +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) { // Bus -> Object 자동 형변환
+        if (o == null || getClass() != o.getClass()) return false;
+        Bus bus = (Bus) o; // 원래 객체로 복원하려면 명시적 형변환 필요
+        return Objects.equals(no, bus.no);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(no);
     }
 }
