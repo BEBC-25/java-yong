@@ -70,7 +70,9 @@ public class BusTest {
         mycar2.leave(2);
         mycar2.ride(12);
 
-        System.out.println(mycar.getBusInfo());
-        System.out.println(mycar2.getBusInfo());
+        System.out.println(mycar);
+        System.out.println(mycar2);
+
+        System.out.println(mycar == mycar2);
     }
 }

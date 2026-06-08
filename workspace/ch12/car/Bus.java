@@ -1,5 +1,7 @@
 package ch12.car;
 
+import java.util.Arrays;
+
 public class Bus extends Car{
     private int passengerCount; // 승객 수
     private String no; // 버스 번호
@@ -10,7 +12,8 @@ public class Bus extends Car{
     private int maxPassenger; // 최대 승객수
     private int money; // 현재까지의 수익
     private int totalPassenger; // 누적 승차 인원
-    private int totalMoney; // 운영하는 모든 버스의 수익
+    // 인스턴스 레벨이 아니라 클래스 레벨에서 관리하는 공용 변수 선언
+    private static int totalMoney; // 운영하는 모든 버스의 수익
 
     // 컴파일러에 의해서 자동으로 생성되는 기본 생성자 모습
 //    Bus(){ super(); }
@@ -68,6 +71,7 @@ public class Bus extends Car{
     }
 
     // 오버라이딩: 부모 메서드를 자식이 재정의
+    @Override
     void stop(){
         super.stop(); // 부모의 stop() 메서드 호출
         station++;
@@ -85,14 +89,20 @@ public class Bus extends Car{
     }
 
     // 버스의 현재 상태를 출력합니다.
-    String getBusInfo(){
-        return "버스 번호: " + no
-            + ", 종류: " + type
-            + ", 현재 위치: " + stations[station]
-            + ", 남은 좌석: " + (maxPassenger-passengerCount)
-            + ", 요금: " + price
-            + ", 수익: " + money
-            + ", 누적 승차 인원: " + totalPassenger
-            + ", 모든 버스 수익 총합: " + totalMoney;
+
+    @Override
+    public String toString() {
+        return "Bus{" +
+                "passengerCount=" + passengerCount +
+                ", no='" + no + '\'' +
+                ", type='" + type + '\'' +
+                ", stations=" + Arrays.toString(stations) +
+                ", station=" + station +
+                ", price=" + price +
+                ", maxPassenger=" + maxPassenger +
+                ", money=" + money +
+                ", totalPassenger=" + totalPassenger +
+                ", totalMoney=" + totalMoney +
+                '}';
     }
 }

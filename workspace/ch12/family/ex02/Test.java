@@ -18,14 +18,14 @@ public class Test {
     }
 
     // 하루 일과
-    private static void dailySchedule(Son p){ // Parent 타입의 매개 변수 정의
+    private static void dailySchedule(Son p){ // Son 타입의 매개 변수 정의
         p.eat();
         p.play();
         p.sleep();
     }
 
     // 하루 일과
-    private static void dailySchedule(Daughter p){ // Parent 타입의 매개 변수 정의
+    private static void dailySchedule(Daughter p){ // Daughter 타입의 매개 변수 정의
         p.eat();
         p.play();
         p.sleep();
