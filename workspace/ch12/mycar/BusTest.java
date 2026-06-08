@@ -1,4 +1,4 @@
-package ch12.car;
+package ch12.mycar;
 
 public class BusTest {
     void main(){
@@ -48,29 +48,6 @@ public class BusTest {
         mycar.ride();
         mycar.ride();
 
-        Bus mycar2 = new Bus("전기버스", "3005", "광역 버스"
-                , new String[]{"김포 시청", "발산역", "홍대역", "서울 시청"}
-                , 3500, 45);
-        mycar2.start();
-        mycar2.speedUp(50);
-        mycar2.stop();
-
-        mycar2.ride(4);
-        mycar2.start();
-        mycar2.speedUp();
-        mycar2.stop();
-
-        mycar2.ride(10);
-        mycar2.leave(2);
-        mycar2.start();
-        mycar2.speedUp(30);
-        mycar2.speedDown();
-        mycar2.stop();
-
-        mycar2.leave(2);
-        mycar2.ride(12);
-
         System.out.println(mycar.getBusInfo());
-        System.out.println(mycar2.getBusInfo());
     }
 }
