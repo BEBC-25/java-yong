@@ -14,7 +14,7 @@ public class Test {
 //        Notebook book = new Notebook();
 //        animalCare(book);
 
-        Cat c = new Cat();
+        Animal c = new Cat();
         animalCare(c);
     }
 
