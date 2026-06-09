@@ -1,8 +1,8 @@
 # 멋쟁이사자처럼 백엔드 부트캠프 25기 Java 프로그래밍 저장소
 
 ## 목차
-### [1. 자바(Java) 프로그래밍 기초](docs/01.java_basic.md)
-### [2. 자바(Java) 객체지향 심화 및 고급 API](docs/02.java_advanced.md)
+### [1. 자바 프로그래밍 기초](docs/01.java_basic.md)
+### [2. 자바 객체지향 프로그래밍](docs/02.java_oop.md)
 
 # 수업 진도
 <details>
@@ -197,7 +197,6 @@
   + [10.4 main 메서드](docs/01.java_basic.md#104-main-메서드)
   + [10.5 명령행 매개변수](docs/01.java_basic.md#105-명령행-매개변수)
   + [10.6 메서드 오버로딩 (Overloading)](docs/01.java_basic.md#106-메서드-오버로딩-overloading)
-    + [10.6.1 메서드 오버로딩 사례](docs/01.java_basic.md#1061-메서드-오버로딩-사례)
 
 </details>
 
@@ -234,11 +233,11 @@
 + 💻 과제 확인 (멋쟁이 전사처럼 게임 개발 - 메서드로 수정): [homework/h02](workspace/homework/h02)
 
 #### 오후(3시간)
-- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_advanced.md#11-객체지향-프로그래밍oop-기초)
-  + [11.1 객체, 클래스, 인스턴스](docs/02.java_advanced.md#111-객체-클래스-인스턴스)
+- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
+  + [11.1 객체, 클래스, 인스턴스](docs/02.java_oop.md#111-객체-클래스-인스턴스)
     + 💻 실습 (학사 관리 시스템 클래스 설계): [ch11/lms](workspace/ch11/lms)
-  + [11.2 클래스의 구성 요소](docs/02.java_advanced.md#112-클래스의-구성-요소)
-    + 💻 실습 (자동차 클래스 작성 - 필드와 메서드): [ch11/mycar](workspace/ch11/mycar)
+  + [11.2 클래스의 구성 요소](docs/02.java_oop.md#112-클래스의-구성-요소)
+    + 💻 실습 (자동차 클래스 작성 - 필드와 메서드): [ch11/mycar/ex01](workspace/ch11/mycar/ex01)
 
 </details>
 
@@ -252,21 +251,20 @@
 + 💻 실습 (자동차 클래스 작성 - 생성자 추가): [ch11/mycar/ex02](workspace/ch11/mycar/ex02)
 
 #### 오후(3시간)
-- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_advanced.md#11-객체지향-프로그래밍oop-기초)
-  + [11.3 필드 (Field)](docs/02.java_advanced.md#113-필드-field)
-  + [11.4 객체의 생성과 사용 방법](docs/02.java_advanced.md#114-객체의-생성과-사용-방법)
+- [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
+  + [11.3 필드 (Field)](docs/02.java_oop.md#113-필드-field)
+  + [11.4 객체의 생성과 사용 방법](docs/02.java_oop.md#114-객체의-생성과-사용-방법)
     + 💻 실습 (필드와 메서드 호출)
       - [ch11/Person.java](workspace/ch11/Person.java)
       - [ch11/PersonTest.java](workspace/ch11/PersonTest.java)
-  + [11.5 생성자 (Constructor)](docs/02.java_advanced.md#115-생성자-constructor)
+  + [11.5 생성자 (Constructor)](docs/02.java_oop.md#115-생성자-constructor)
     + 💻 실습 (생성자 정의): [ch11/MemberTest.java](workspace/ch11/MemberTest.java)
-  + [11.6 생성자 오버로딩](docs/02.java_advanced.md#116-생성자-오버로딩)
+  + [11.6 생성자 오버로딩](docs/02.java_oop.md#116-생성자-오버로딩)
     + 💻 실습 (생성자 오버로딩, 하나의 소스에 두개의 클래스 정의): [ch11/BookTest.java](workspace/ch11/BookTest.java)
-  + [11.7 this와 this()](docs/02.java_advanced.md#117-this와-this)
+  + [11.7 this와 this()](docs/02.java_oop.md#117-this와-this)
     + 💻 실습 (this() 사용): [ch11/BookTest.java](workspace/ch11/BookTest.java)
-  + [11.8 패키지와 임포트](docs/02.java_advanced.md#118-패키지와-임포트)
+  + [11.8 패키지와 임포트](docs/02.java_oop.md#118-패키지와-임포트)
     + 💻 실습 (패키지와 import): [ch11/pkg](workspace/ch11/pkg)
-  + [11.9 캡슐화와 접근 제어자](docs/02.java_advanced.md#119-캡슐화와-접근-제어자)
 
 </details>
 
@@ -274,33 +272,33 @@
 <summary><h3>13일차(2026.06.04 목)</h3></summary>
 
 #### 오전(3시간)
-+ [11.9 캡슐화와 접근 제어자](docs/02.java_advanced.md#119-캡슐화와-접근-제어자)
++ [11.9 캡슐화와 접근 제어자](docs/02.java_oop.md#119-캡슐화와-접근-제어자)
   - 💻 실습 (캡슐화를 통해서 불필요한 sum 호출을 막음): [ch11/capsule/ex01](workspace/ch11/capsule/ex01)
   - 💻 실습 (필드를 private으로 지정해서 외부의 직접 접근을 제한): [ch11/capsule/ex02](workspace/ch11/capsule/ex02)
   - 💻 실습 (캡슐화가 안될 경우의 문제점): [ch11/capsule/ex03](workspace/ch11/capsule/ex03)
 
 #### 오후(3시간)
-+ [11.10 정적(static) 멤버](docs/02.java_advanced.md#1110-정적static-멤버)
++ [11.10 정적(static) 멤버](docs/02.java_oop.md#1110-정적static-멤버)
   - 💻 실습 (static 필드와 메서드)
     + [ch11/statictest/MathUtil.java](workspace/ch11/statictest/MathUtil.java)
     + [ch11/statictest/MathUtilTest.java](workspace/ch11/statictest/MathUtilTest.java)
-+ [11.11 변수의 종류와 비교 (지역 변수, 인스턴스 변수, 클래스 변수)](docs/02.java_advanced.md#1111-변수의-종류와-비교-지역-변수-인스턴스-변수-클래스-변수)
++ [11.11 변수의 종류와 비교 (지역 변수, 인스턴스 변수, 클래스 변수)](docs/02.java_oop.md#1111-변수의-종류와-비교-지역-변수-인스턴스-변수-클래스-변수)
   - 💻 실습 (static main 메서드) [ch11/statictest/MainMethodTest.java](workspace/ch11/statictest/MainMethodTest.java)
-
+  
 </details>
 
 <details>
 <summary><h3>14일차(2026.06.05 금)</h3></summary>
 
 #### 오전(3시간)
-- [12. 객체지향 심화 - 상속(Inheritance)](docs/02.java_advanced.md#12-객체지향-심화---상속inheritance)
-  + [12.1 상속의 개념](docs/02.java_advanced.md#121-상속의-개념)
+- [12. 객체지향 심화 - 상속(Inheritance)](docs/02.java_oop.md#12-객체지향-심화---상속inheritance)
+  + [12.1 상속의 개념](docs/02.java_oop.md#121-상속의-개념)
     - 💻 실습 (Parent, Son, Doughter 상속) [ch12/familly/ex01](workspace/ch12/familly/ex01)
 
 #### 오후(3시간)
-+ [12.2 메서드 오버라이딩](docs/02.java_advanced.md#122-메서드-오버라이딩)
++ [12.2 메서드 오버라이딩](docs/02.java_oop.md#122-메서드-오버라이딩)
   - 💻 실습 (Animal, Dog, Cat 상속) [ch12/animal](workspace/ch12/animal)
-+ [12.3 super와 super()](docs/02.java_advanced.md#123-super와-super)
++ [12.3 super와 super()](docs/02.java_oop.md#123-super와-super)
   - 💻 실습 (Car, Bus 상속) [ch12/car](workspace/ch12/car)
 
 </details>
@@ -309,16 +307,16 @@
 <summary><h3>15일차(2026.06.08 월)</h3></summary>
 
 #### 오전(3시간)
-+ [12.4 final 키워드와 상속](docs/02.java_advanced.md#124-final-키워드와-상속)
-  + [12.5 Object 클래스](docs/02.java_advanced.md#125-object-클래스)
++ [12.4 final 키워드와 상속](docs/02.java_oop.md#124-final-키워드와-상속)
+  + [12.5 Object 클래스](docs/02.java_oop.md#125-object-클래스)
     - 💻 실습 (toString(), equals(), hashCode() 오버라이딩) [ch12/car](workspace/ch12/car)
-  + [12.6 클래스 관계 설계: 포함(Has-A) vs 상속(Is-A)](docs/02.java_advanced.md#126-클래스-관계-설계-포함has-a-vs-상속is-a)
+  + [12.6 클래스 관계 설계: 포함(Has-A) vs 상속(Is-A)](docs/02.java_oop.md#126-클래스-관계-설계-포함has-a-vs-상속is-a)
 
 #### 오후(3시간)
-- [13. 객체지향 심화 - 다형성(Polymorphism)과 인터페이스](docs/02.java_advanced.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
-  + [13.1 다형성](docs/02.java_advanced.md#131-다형성)
-  + [13.2 instanceof 연산자](docs/02.java_advanced.md#132-instanceof-연산자)
-    - 💻 실습 (Parent, Son, Doughter 업캐스팅, 다운캐스팅) [ch12/familly/ex02](workspace/ch12/familly/ex02)
+- [13. 객체지향 심화 - 다형성(Polymorphism)과 인터페이스](docs/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
+  + [13.1 다형성](docs/02.java_oop.md#131-다형성)
+  + [13.2 instanceof 연산자](docs/02.java_oop.md#132-instanceof-연산자)
+    - 💻 실습 (Parent, Son, Doughter 업캐스팅, 다운캐스팅) [ch13/familly/ex01](workspace/ch13/familly/ex01)
 
 </details>
 
@@ -331,17 +329,17 @@
 <summary><h3>16일차(2026.06.09 화)</h3></summary>
 
 #### 오전(3시간)
-  + [13.3 추상 클래스](docs/02.java_advanced.md#133-추상-클래스)
+  + [13.3 추상 클래스](docs/02.java_oop.md#133-추상-클래스)
     - 💻 실습 (Parent, Son, Doughter 추상클래스로 변경) [ch13/familly/ex02](workspace/ch13/familly/ex02)
-  + [13.4 인터페이스](docs/02.java_advanced.md#134-인터페이스)
-  + [13.5 인터페이스의 구현 메서드 (default, static, private)](docs/02.java_advanced.md#135-인터페이스의-구현-메서드-default-static-private)
+  + [13.4 인터페이스](docs/02.java_oop.md#134-인터페이스)
+  + [13.5 인터페이스의 구현 메서드 (default, static, private)](docs/02.java_oop.md#135-인터페이스의-구현-메서드-default-static-private)
 
 #### 오후(3시간)
 - 💻 실습 (SuperCar 상속, Chargeable 인터페이스 구현) [ch13/supercar](workspace/ch13/supercar)
-- [14. 자바 주요 패키지와 API](docs/02.java_advanced.md#14-자바-주요-패키지와-api)
-  + [14.1 자바 API 문서](docs/02.java_advanced.md#141-자바-api-문서)
-  + [14.2 주요 패키지 개요](docs/02.java_advanced.md#142-주요-패키지-개요)
-  + [14.3 문자열 클래스 (String, StringBuffer, StringBuilder)](docs/02.java_advanced.md#143-문자열-클래스-string-stringbuffer-stringbuilder)
+- [14. 자바 주요 패키지와 API](docs/02.java_oop.md#14-자바-주요-패키지와-api)
+  + [14.1 자바 API 문서](docs/02.java_oop.md#141-자바-api-문서)
+  + [14.2 주요 패키지 개요](docs/02.java_oop.md#142-주요-패키지-개요)
+  + [14.3 String 클래스](docs/02.java_oop.md#143-string-클래스)
     - 💻 실습 (String 클래스) [ch14/StringTest.java](workspace/ch14/StringTest.java)
 
 </details>
