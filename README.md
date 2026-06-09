@@ -324,6 +324,66 @@
 
 </details>
 
+<details>
+<summary><h2>4주차 - 2026.06.09(화) ~ 2026.06.15(월)</h2></summary>
+
+<details>
+<summary><h3>16일차(2026.06.09 화)</h3></summary>
+
+#### 오전(3시간)
+  + [13.3 추상 클래스](docs/02.java_advanced.md#133-추상-클래스)
+    - 💻 실습 (Parent, Son, Doughter 추상클래스로 변경) [ch13/familly/ex02](workspace/ch13/familly/ex02)
+  + [13.4 인터페이스](docs/02.java_advanced.md#134-인터페이스)
+  + [13.5 인터페이스의 구현 메서드 (default, static, private)](docs/02.java_advanced.md#135-인터페이스의-구현-메서드-default-static-private)
+
+#### 오후(3시간)
+- 💻 실습 (SuperCar 상속, Chargeable 인터페이스 구현) [ch13/supercar](workspace/ch13/supercar)
+- [14. 자바 주요 패키지와 API](docs/02.java_advanced.md#14-자바-주요-패키지와-api)
+  + [14.1 자바 API 문서](docs/02.java_advanced.md#141-자바-api-문서)
+  + [14.2 주요 패키지 개요](docs/02.java_advanced.md#142-주요-패키지-개요)
+  + [14.3 문자열 클래스 (String, StringBuffer, StringBuilder)](docs/02.java_advanced.md#143-문자열-클래스-string-stringbuffer-stringbuilder)
+    - 💻 실습 (String 클래스) [ch14/StringTest.java](workspace/ch14/StringTest.java)
+
+</details>
+
+<details>
+<summary><h3>17일차(2026.06.10 수)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>18일차(2026.06.11 목)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>19일차(2026.06.12 금)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>20일차(2026.06.15 월)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+</details>
+
 </details>
 
 # 1. 개발 환경 구축
