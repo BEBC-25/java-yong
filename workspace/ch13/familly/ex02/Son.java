@@ -1,7 +1,7 @@
-package ch12.familly.ex02;
+package ch13.familly.ex02;
 
 // Son이 Parent의 필드와 메서드를 상속 받는다.
-public class Son extends Parent{
+public class Son extends Parent {
     Son(String name){
         super(name); // super() 부모의 생성자 호출
     }

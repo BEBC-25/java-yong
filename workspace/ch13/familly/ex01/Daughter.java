@@ -1,4 +1,4 @@
-package ch12.familly.ex02;
+package ch13.familly.ex01;
 
 public class Daughter extends Parent{
     Daughter(String name){
