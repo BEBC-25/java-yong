@@ -1,8 +1,8 @@
 # 멋쟁이사자처럼 백엔드 부트캠프 25기 Java 프로그래밍 저장소
 
 ## 목차
-### [1. 자바 기초](docs/01.java_basic.md)
-### [2. 자바 심화](docs/02.java_advanced.md)
+### [1. 자바(Java) 프로그래밍 기초](docs/01.java_basic.md)
+### [2. 자바(Java) 객체지향 심화 및 고급 API](docs/02.java_advanced.md)
 
 # 수업 진도
 <details>
