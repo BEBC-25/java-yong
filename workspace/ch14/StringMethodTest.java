@@ -57,5 +57,12 @@ public class StringMethodTest {
         System.out.println(str.indexOf("Hello") == 0 ? true : false);
         System.out.println(str.startsWith("Hello"));
 
+        // 13. "Hello Hello ..." 1000개로 이루어진 문자열 생성
+        String str4 = "";
+        for(int i=0; i<100; i++){
+            str4 = str4 + "Hello ";
+        }
+        System.out.println(str4);
+
     }
 }
