@@ -45,5 +45,9 @@ public class TimeTest {
         System.out.println(startDate.toEpochDay());
         System.out.println(today.toEpochDay());
 
+        System.out.println("시작일로부터 지난 일수: " + (today.toEpochDay() - startDate.toEpochDay()));
+        System.out.println("수료일까지 남은 일수: " + (finishDate.toEpochDay() - today.toEpochDay()));
+        System.out.println("총 수업 기간: " + (finishDate.toEpochDay() - startDate.toEpochDay()));
+
     }
 }
