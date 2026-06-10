@@ -32,7 +32,7 @@ public class Score {
 
     // Setter 메서드
     public void setMath(int math){ // 수학 점수를 새로운 값으로 교체한다.
-        if(math > 100 || kor < 0){
+        if(math > 100 || math < 0){
             System.out.println("math 값은 0 ~ 100 사이로 입력해야 됩니다.");
         }else{
             this.math = math;
@@ -50,12 +50,12 @@ public class Score {
         }else{
             this.kor = kor;
         }
-        if(eng > 100 || kor < 0){
+        if(eng > 100 || eng < 0){
             System.out.println("eng 값은 0 ~ 100 사이로 입력해야 됩니다.");
         }else{
             this.eng = eng;
         }
-        if(math > 100 || kor < 0){
+        if(math > 100 || math < 0){
             System.out.println("math 값은 0 ~ 100 사이로 입력해야 됩니다.");
         }else{
             this.math = math;
