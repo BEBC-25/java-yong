@@ -3,9 +3,9 @@ insert into member (email, password, name) values ('haru@gmail.com', '123', '하
 
 
 insert into member (email, password, name) values 
-	('namu@gmail.com', '456', '나무'),
-	('yong@gmail.com', '111', '용쌤'),
-	('harong@gmail.com', '223', '하롱이');
+    ('namu@gmail.com', '456', '나무'),
+    ('yong@gmail.com', '111', '용쌤'),
+    ('harong@gmail.com', '223', '하롱이');
 
 -- 회원 테이블의 모든 레코드 조회(Read)
 select id, email, password, name, created_at from member;

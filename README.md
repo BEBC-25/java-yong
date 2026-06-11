@@ -3,7 +3,7 @@
 ## 목차
 ### [1. 자바 프로그래밍 기초](docs/01.java_basic.md)
 ### [2. 자바 객체지향 프로그래밍](docs/02.java_oop.md)
-### [3. 데이터베이스 기본](docs/03.database-1.md)
+### [3. 데이터베이스 기초](docs/03.database-1.md)
 
 # 수업 진도
 <details>
