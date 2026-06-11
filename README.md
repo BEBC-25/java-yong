@@ -349,8 +349,24 @@
 <summary><h3>17일차(2026.06.10 수)</h3></summary>
 
 #### 오전(3시간)
-
++ [14.3 String 클래스](docs/02.java_oop.md#143-string-클래스)
+  - 💻 실습 (String 메서드) [ch14/StringMethodTest.java](workspace/ch14/StringMethodTest.java)
++ [14.4 StringBuffer와 StringBuilder 클래스](#144-stringbuffer와-stringbuilder-클래스)
+  - 💻 실습 (StringBuffer 클래스) [ch14/StringBufferTest.java](workspace/ch14/StringBufferTest.java)
++ [14.6 래퍼 클래스 (Wrapper Class)](#146-래퍼-클래스-wrapper-class)
+  - 💻 실습 (Wrapper 클래스) [ch14/WrapperTest.java](workspace/ch14/WrapperTest.java)
 #### 오후(3시간)
++ [14.7 Math 클래스](#147-math-클래스)
+  - 💻 실습 (Math 클래스) [ch14/MathTest.java](workspace/ch14/MathTest.java)
++ [14.8 Scanner 클래스](#148-scanner-클래스)
+  - 💻 실습 (Scanner 클래스) [ch14/ScannerTest.java](workspace/ch14/ScannerTest.java)
++ [14.9 Random 클래스](#149-random-클래스)
+  - 💻 실습 (Random 클래스) [ch14/RandomTest.java](workspace/ch14/RandomTest.java)
++ [14.10 날짜와 시간 클래스 (java.time 패키지)](#1410-날짜와-시간-클래스-javatime-패키지)
+  - 💻 실습 (java.time 패키지) [ch14/TimeTest.java](workspace/ch14/TimeTest.java)
++ [14.11 ArrayList 클래스](#1411-arraylist-클래스)
+  - 💻 실습 (가변 배열 만들기) [ch14/ArrayTest.java](workspace/ch14/ArrayTest.java)
+  - 💻 실습 (ArrayList 클래스) [ch14/ArrayListTest.java](workspace/ch14/ArrayListTest.java)
 
 </details>
 
@@ -358,8 +374,16 @@
 <summary><h3>18일차(2026.06.11 목)</h3></summary>
 
 #### 오전(3시간)
+- [1. 데이터베이스 기초](docs/03.database-1.md#1-데이터베이스-기초)
+  - [1.1 데이터베이스와 DBMS 개요](docs/03.database-1.md#11-데이터베이스와-dbms-개요)
+  - [1.2 관계형 데이터베이스(RDBMS)의 개념 및 구조](docs/03.database-1.md#12-관계형-데이터베이스rdbms의-개념-및-구조)
+  - 💻 실습 [1.3 MySQL 설치 및 DBeaver 사용](docs/03.database-1.md#13-mysql-설치-및-dbeaver-사용)
 
 #### 오후(3시간)
+- [2. SQL 기본](docs/03.database-1.md#2-sql-기본)
+  - [2.1 DDL (CREATE TABLE과 제약조건)](docs/03.database-1.md#21-ddl-create-table과-제약조건)
+  - 💻 실습 (데이터베이스, member 테이블 생성) [db/01_DDL.sql](db/01_DDL.sql)
+  - 💻 실습 (member 테이블 CRUD) [db/01_DDL.sql](db/01_DML.sql)
 
 </details>
 
