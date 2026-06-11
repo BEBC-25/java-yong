@@ -14,11 +14,11 @@ drop table member;
 
 -- 회원 테이블 생성
 create table member (
-	id int auto_increment primary key,
-	email varchar(100) not null unique,
-	password varchar(255) not null,
-	name varchar(100) not null,
-	created_at datetime default CURRENT_TIMESTAMP
+    id int auto_increment primary key,
+    email varchar(100) not null unique,
+    password varchar(255) not null,
+    name varchar(100) not null,
+    created_at datetime default CURRENT_TIMESTAMP
 );
 
 -- 게시글 테이블 생성
