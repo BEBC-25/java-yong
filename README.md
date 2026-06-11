@@ -383,7 +383,7 @@
 - [2. SQL 기본](docs/03.database-1.md#2-sql-기본)
   - [2.1 DDL (CREATE TABLE과 제약조건)](docs/03.database-1.md#21-ddl-create-table과-제약조건)
   - 💻 실습 (데이터베이스, member 테이블 생성) [db/01_DDL.sql](db/01_DDL.sql)
-  - 💻 실습 (member 테이블 CRUD) [db/01_DDL.sql](db/01_DML.sql)
+  - 💻 실습 (member 테이블 CRUD) [db/01_DDL.sql](db/02_DML.sql)
 
 </details>
 
