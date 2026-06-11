@@ -11,6 +11,7 @@ DROP DATABASE board_db;
 
 -- 회원 테이블 삭제
 drop table member;
+
 -- 회원 테이블 생성
 create table member (
 	id int auto_increment primary key,
