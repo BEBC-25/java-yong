@@ -42,7 +42,7 @@ INSERT INTO post (member_id, title, content, created_at) VALUES (1, '첫 번째 
 INSERT INTO post (member_id, title, content, created_at) VALUES (2, '질문 있습니다', '데이터베이스 기초에 대한 질문입니다.', '2026-05-26 11:33:54');
 INSERT INTO post (member_id, title, content, created_at) VALUES (1, '두 번째 게시글', '오늘 날씨가 아주 좋습니다.', '2026-05-27 12:22:54');
 INSERT INTO post (member_id, title, content, created_at) VALUES (2, 'MySQL 설치 오류 해결방법', '설치 중 Configurator 단계에서 오류가 날 때 대처법 공유합니다.', '2026-05-29 12:33:12');
-INSERT INTO post (member_id, title, content, created_at) VALUES (3, '자기 소개', '안녕하세요 하롱이입니다.', '2026-06-12 11:22:33');
+INSERT INTO post (member_id, title, content, created_at) VALUES (3, '자기 소개', '안녕하세요 하롱이입니다.', '2026-06-12 12:22:54');
 
 INSERT INTO reply (post_id, member_id, content) VALUES (1, 2, '환영합니다!');
 INSERT INTO reply (post_id, member_id, content) VALUES (1, 3, '반가워요~');
