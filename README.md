@@ -390,10 +390,22 @@
 <details>
 <summary><h3>19일차(2026.06.12 금)</h3></summary>
 
-#### 오전(3시간)
+##### 오전
+- [2. SQL 기본](#2-sql-기본)
+  - [2.1 DDL (CREATE TABLE과 제약조건)](docs/03.database-1.md#21-ddl-create-table과-제약조건)
+    - 💻 실습 (데이터베이스 생성 및 삭제) [01_DDL/database.sql](workspace/03_database/query/01_DDL/database.sql)
+    - 💻 실습 (테이블 생성 및 삭제) [01_DDL/table.sql](workspace/03_database/query/01_DDL/table.sql)
 
-#### 오후(3시간)
-
+##### 오후
+- [2. SQL 기본](#2-sql-기본)
+  - [2.2 DML (INSERT, SELECT, UPDATE, DELETE)](#22-dml-insert-select-update-delete)
+    - 💻 실습 (데이터 등록, Create) [02_DML/insert.sql](workspace/03_database/query/02_DML/insert.sql)
+    - 💻 실습 (데이터 조회, Read) [02_DML/select.sql](workspace/03_database/query/02_DML/select.sql)
+    - 💻 실습 (데이터 수정, Update) [02_DML/update.sql](workspace/03_database/query/02_DML/update.sql)
+    - 💻 실습 (데이터 삭제, Delete) [02_DML/dalete.sql](workspace/03_database/query/02_DML/dalete.sql)
+    - 💻 실습 (게시판 테이블 생성 및 데이터 등록) [init_board_db.sql](workspace/03_database/query/init_board_db.sql)
+  - [2.3 SELECT 문 기초 (WHERE, ORDER BY, LIMIT)](#23-select-문-기초-where-order-by-limit)
+    - 💻 실습 (데이터 조회 - 조건 검색, 정렬, 갯수 제한) [02_DML/select.sql](workspace/03_database/query/02_DML/select.sql)
 </details>
 
 <details>
