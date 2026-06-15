@@ -101,6 +101,30 @@ FROM MEMBER;
 SELECT name, IF(phone IS NULL, '연락처 없음', '연락처 있음') AS phone_status
 FROM MEMBER;
 
+-- 가입연도가 1년이 넘었으면 '우수 회원', 1달이 넘었으면 '일반 회원', 그러지 않으면 '신규 회원'을 출력
+SELECT 
+	name, 
+	created_at,
+	CASE
+		WHEN created_at < DATE_SUB(NOW(), INTERVAL 1 YEAR) THEN '우수 회원'
+		WHEN created_at < DATE_SUB(NOW(), INTERVAL 1 MONTH) THEN '일반 회원'
+		ELSE '신규 회원'
+	END AS member_grade
+FROM MEMBER;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
