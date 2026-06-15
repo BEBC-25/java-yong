@@ -59,6 +59,51 @@ SELECT name, created_at, DATEDIFF(CURDATE(), created_at) AS days_since_join
 FROM MEMBER;
 
 
+-- 모든 회원 수 조회
+SELECT count(*)
+FROM MEMBER;
+
+-- 모든 게시글 수 조회
+SELECT count(*)
+FROM post;
+
+-- id=3인 회원의 총 게시글 수 조회
+SELECT member_id, COUNT(*) AS total_count
+FROM post
+WHERE MEMBER_id = 3;
+
+-- id=3인 회원의 모든 게시글의 조회수 조회
+SELECT member_id, view_count
+FROM post
+WHERE MEMBER_id = 3;
+
+
+-- id=3인 회원의 모든 게시글의 총 조회수
+SELECT member_id, COUNT(*) AS total_counts, SUM(view_count) AS total_views, AVG(view_count) AS avg_views
+	, MIN(view_count) AS min_views, MAX(view_count) AS max_views
+-- 	, title
+FROM post
+WHERE MEMBER_id = 3;
+
+-- 전화번호가 NULL인 회원은 '미등록'으로 표시하여 조회
+SELECT name, IFNULL(phone, '미등록') AS phone
+FROM member;
+
+-- 전화번호가 NULL이면 이메일을, 이메일도 NULL이면 '연락처 없음'으로 조회
+SELECT name, IFNULL(phone, IFNULL(email, '연락처 없음')) AS contact
+FROM member;
+SELECT name, COALESCE(phone, email, '연락처 없음') AS contact
+FROM member;
+SELECT name, IF(phone IS NULL, IF(email IS NULL, '연락처 없음', email), phone) AS phone_status
+FROM MEMBER;
+
+-- 전화번호 등록 여부에 따라서 상태를 다르게 표시
+SELECT name, IF(phone IS NULL, '연락처 없음', '연락처 있음') AS phone_status
+FROM MEMBER;
+
+
+
+
 
 
 
