@@ -12,7 +12,8 @@ CREATE TABLE member (
     name VARCHAR(50) NOT NULL,
     phone CHAR(12),
     recommender_id INT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (recommender_id) REFERENCES member(id) ON DELETE SET NULL
 );
 
 CREATE TABLE post (
