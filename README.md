@@ -412,8 +412,93 @@
 <summary><h3>20일차(2026.06.15 월)</h3></summary>
 
 #### 오전(3시간)
+- 주말 과제 풀이
+  + 💻 과제: [homework/h01.sql](workspace/03_database/query/homework/h01.sql)
+  + 💻 풀이(수강생): [homework/h01_students.sql](workspace/03_database/query/homework/h01_students.sql)
+  + 💻 풀이(용쌤): [homework/h01_slove.sql](workspace/03_database/query/homework/h01_solve.sql)
+- [2.4 주요 기본 함수 (문자열, 날짜, 집계, 조건)](docs/03.database-1.md#24-주요-기본-함수-문자열-날짜-집계-조건)
+  - 💻 실습 (주요 함수) [02_DML/select-function.sql](workspace/03_database/query/02_DML/select-function.sql)
 
 #### 오후(3시간)
+  - [2.5 그룹화 및 필터링 (GROUP BY, HAVING)](docs/03.database-1.md#25-그룹화-및-필터링-group-by-having)
+    - 💻 실습 (그룹 쿼리) [02_DML/select-group.sql](workspace/03_database/query/02_DML/select-group.sql)
+  - [2.6 DCL (사용자 관리, 권한 조회, GRANT, REVOKE, ROLE)](docs/03.database-1.md#26-dcl-사용자-관리-권한-조회-grant-revoke-role)
+    - 💻 실습 (사용자 관리) [03_DCL/user.sql](workspace/03_database/query/03_DCL/user.sql)
+
+</details>
+</details>
+
+<details>
+<summary><h2>5주차 - 2026.06.16(화) ~ 2026.06.22(월)</h2></summary>
+
+<details>
+<summary><h3>21일차(2026.06.16 화)</h3></summary>
+
+#### 오전(3시간)
+- [3. 다중 테이블 조인 및 집합 연산자](docs/03.database-1.md#3-다중-테이블-조인-및-집합-연산자)
+  - [3.1 조인이란?](docs/03.database-1.md#31-조인이란)
+  - [3.2 INNER JOIN (내부 조인)](docs/03.database-1.md#32-inner-join-내부-조인)
+  - [3.3 OUTER JOIN (외부 조인)](docs/03.database-1.md#33-outer-join-외부-조인)
+  - [3.4 SELF JOIN (자체 조인)](docs/03.database-1.md#34-self-join-자체-조인)
+  - [3.5 집합 연산자 (UNION, UNION ALL)](docs/03.database-1.md#35-집합-연산자-union-union-all)
+  - 💻 실습 (조인) [02_DML/select-join.sql](workspace/03_database/query/02_DML/select-join.sql)
+
+#### 오후(3시간)
+- [4. 서브쿼리(Subquery) 활용](docs/03.database-1.md#4-서브쿼리subquery-활용)
+  - [4.1 WHERE 절 서브쿼리](docs/03.database-1.md#41-where-절-서브쿼리)
+  - [4.2 스칼라 서브쿼리](docs/03.database-1.md#42-스칼라-서브쿼리)
+  - [4.3 FROM 절 서브쿼리 (인라인 뷰)](docs/03.database-1.md#43-from-절-서브쿼리-인라인-뷰)
+  - [4.4 EXISTS 서브쿼리](docs/03.database-1.md#44-exists-서브쿼리)
+  - 💻 실습 (서브쿼리) [02_DML/select-subquery.sql](workspace/03_database/query/02_DML/select-subquery.sql)
+- [5. 게시판 데이터베이스 스키마 작성](docs/03.database-1.md#5-게시판-데이터베이스-스키마-작성)
+  - [5.1 게시판 요구사항 정의](docs/03.database-1.md#51-게시판-요구사항-정의)
+  - [5.2 테이블 생성 및 샘플 데이터 삽입](docs/03.database-1.md#52-테이블-생성-및-샘플-데이터-삽입)
+  - [5.3 조회 쿼리 연습](docs/03.database-1.md#53-조회-쿼리-연습)
+  - 💻 실습 (게시판 스키마 작성) [board-exam.sql](workspace/03_database/query/board-exam.sql)
+
+</details>
+
+<details>
+<summary><h3>22일차(2026.06.17 수)</h3></summary>
+
+#### 오전(3시간)
+  
+
+#### 오후(3시간)
+
+
+</details>
+
+<details>
+<summary><h3>23일차(2026.06.18 목)</h3></summary>
+
+#### 오전(3시간)
+  
+
+#### 오후(3시간)
+
+
+</details>
+
+<details>
+<summary><h3>24일차(2026.06.19 금)</h3></summary>
+
+#### 오전(3시간)
+  
+
+#### 오후(3시간)
+
+
+</details>
+
+<details>
+<summary><h3>25일차(2026.06.22 월)</h3></summary>
+
+#### 오전(3시간)
+  
+
+#### 오후(3시간)
+
 
 </details>
 
