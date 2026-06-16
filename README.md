@@ -15,7 +15,7 @@
 <summary><h3>1일차(2026.05.15 금)</h3></summary>
 
 #### 오전(3시간)
-- Java 레포지토리 README: <https://github.com/BEBC-25/java-yong>
+- Java 레포지토리 README: <https://github.com/BEBC-25/java-yong#멋쟁이사자처럼-백엔드-부트캠프-25기-java-프로그래밍-저장소>
   + [💻 개발환경 구축](https://github.com/BEBC-25/java-yong/tree/main#1-개발-환경-구축)
 
 #### 오후(3시간)
@@ -40,14 +40,14 @@
 - [4. 개발 환경 구성](docs/01.java_basic.md#4-개발-환경-구성)
   + [4.1 JRE와 JDK](docs/01.java_basic.md#41-jre와-jdk)
   + [4.2 IDE (Integrated Development Environment, 통합 개발 환경)](docs/01.java_basic.md#42-ide-integrated-development-environment-통합-개발-환경)
-  + 💻 실습 (HelloWorld 출력): [NewHelloWorld.java](workspace/NewHelloWorld.java)
+  + 💻 실습 (HelloWorld 출력): [NewHelloWorld.java](workspace/01_basic/NewHelloWorld.java)
 
 #### 오후(3시간)
 - [5. 데이터 타입과 변수](docs/01.java_basic.md#5-데이터-타입과-변수)
   + [5.1 기본 데이터 타입(Primitive Type)](docs/01.java_basic.md#51-기본-데이터-타입primitive-type)
   + [5.2 참조 데이터 타입(Reference Type)](docs/01.java_basic.md#52-참조-데이터-타입reference-type)
   + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
-  + 💻 실습 (기본 자료형 및 변수 선언): [ch05/PrimitiveType.java](workspace/ch05/PrimitiveType.java)
+  + 💻 실습 (기본 자료형 및 변수 선언): [ch05/PrimitiveType.java](workspace/01_basic/ch05/PrimitiveType.java)
 
 </details>
 
@@ -59,7 +59,7 @@
   + [5.3 변수와 상수](docs/01.java_basic.md#53-변수와-상수)
   + [5.4 식별자와 예약어](docs/01.java_basic.md#54-식별자와-예약어)
   + [5.5 형변환(Type Casting)](docs/01.java_basic.md#55-형변환type-casting)
-    + 💻 실습 (자동 및 강제 형변환): [ch05/TypeCastingTest.java](workspace/ch05/TypeCastingTest.java)
+    + 💻 실습 (자동 및 강제 형변환): [ch05/TypeCastingTest.java](workspace/01_basic/ch05/TypeCastingTest.java)
 
 #### 오후(3시간)
 - [6. 연산자](docs/01.java_basic.md#6-연산자)
@@ -69,11 +69,11 @@
   + [6.4 비교 연산자](docs/01.java_basic.md#64-비교-연산자)
   + [6.5 논리 연산자](docs/01.java_basic.md#65-논리-연산자)
   + [6.6 삼항 연산자](docs/01.java_basic.md#66-삼항-연산자)
-  + 💻 실습 (다양한 연산자 활용): [ch06/OperatorTest.java](workspace/ch06/OperatorTest.java)
+  + 💻 실습 (다양한 연산자 활용): [ch06/OperatorTest.java](workspace/01_basic/ch06/OperatorTest.java)
   + [6.7 연산자 우선순위](docs/01.java_basic.md#67-연산자-우선순위)
-    + 💻 실습 (연산자 우선순위): [ch06/OperatorPriorityTest.java](workspace/ch06/OperatorPriorityTest.java)
-  - 💻 문제 (연산자): [ch06/OperatorProb.java](workspace/ch06/OperatorProb.java)
-    - 💻 해결 (연산자): [ch06/OperatorSolve.java](workspace/ch06/OperatorSolve.java)
+    + 💻 실습 (연산자 우선순위): [ch06/OperatorPriorityTest.java](workspace/01_basic/ch06/OperatorPriorityTest.java)
+  - 💻 문제 (연산자): [ch06/OperatorProb.java](workspace/01_basic/ch06/OperatorProb.java)
+    - 💻 해결 (연산자): [ch06/OperatorSolve.java](workspace/01_basic/ch06/OperatorSolve.java)
 
 </details>
 
@@ -85,17 +85,17 @@
   + [7.1 if 문](docs/01.java_basic.md#71-if-문)
   + [7.2 if-else 문](docs/01.java_basic.md#72-if-else-문)
   + [7.3 if-else if 문](docs/01.java_basic.md#73-if-else-if-문)
-  + 💻 실습 (if-else if 조건문): [ch07/IfTest.java](workspace/ch07/IfTest.java)
-  + 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/IfTest2.java](workspace/ch07/IfTest2.java)
-  + 💻 문제 (시험 점수(score)에 따른 학점 출력): [ch07/IfProb.java](workspace/ch07/IfProb.java)
-    - 💻 해결 (시험 점수(score)에 따른 학점 출력): [ch07/IfSolve.java](workspace/ch07/IfSolve.java)
+  + 💻 실습 (if-else if 조건문): [ch07/IfTest.java](workspace/01_basic/ch07/IfTest.java)
+  + 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/IfTest2.java](workspace/01_basic/ch07/IfTest2.java)
+  + 💻 문제 (시험 점수(score)에 따른 학점 출력): [ch07/IfProb.java](workspace/01_basic/ch07/IfProb.java)
+    - 💻 해결 (시험 점수(score)에 따른 학점 출력): [ch07/IfSolve.java](workspace/01_basic/ch07/IfSolve.java)
 
 #### 오후(3시간)
 - [7. 조건문](docs/01.java_basic.md#7-조건문)
   + [7.4 switch 문](docs/01.java_basic.md#74-switch-문)
-    - 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/SwitchTest.java](workspace/ch07/SwitchTest.java)
-    - 💻 실습 (회원 등급에 따른 할인 혜택 적용): [ch07/SwitchTest2.java](workspace/ch07/SwitchTest2.java)
-    - 💻 실습 (나이에 따른 입장료 할인 계산): [ch07/IfSwitchTest.java](workspace/ch07/IfSwitchTest.java)
+    - 💻 실습 (입력받은 월의 마지막 날짜 출력): [ch07/SwitchTest.java](workspace/01_basic/ch07/SwitchTest.java)
+    - 💻 실습 (회원 등급에 따른 할인 혜택 적용): [ch07/SwitchTest2.java](workspace/01_basic/ch07/SwitchTest2.java)
+    - 💻 실습 (나이에 따른 입장료 할인 계산): [ch07/IfSwitchTest.java](workspace/01_basic/ch07/IfSwitchTest.java)
 
 </details>
 
@@ -105,16 +105,16 @@
 #### 오전(3시간)
 - [7. 조건문](docs/01.java_basic.md#7-조건문)
   + [7.5 Switch Expression](docs/01.java_basic.md#75-switch-expression)
-    + 💻 실습 (Switch Expression 활용): [ch07/SwitchExpressionTest.java](workspace/ch07/SwitchExpressionTest.java)
+    + 💻 실습 (Switch Expression 활용): [ch07/SwitchExpressionTest.java](workspace/01_basic/ch07/SwitchExpressionTest.java)
 
 #### 오후(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.1 while 문](docs/01.java_basic.md#81-while-문)
-    + 💻 실습 (while 반복문. 1부터 입력한 숫자까지의 합계): [ch08/WhileTest.java](workspace/ch08/WhileTest.java)
-    + 💻 실습 (while 반복문. 급여 계산): [ch08/WhileTest2.java](workspace/ch08/WhileTest2.java)
-    + 💻 실습 (while 반복문. 6이 나올때까지 주사위를 던져보자!!!): [ch08/WhileTest3.java](workspace/ch08/WhileTest3.java)
+    + 💻 실습 (while 반복문. 1부터 입력한 숫자까지의 합계): [ch08/WhileTest.java](workspace/01_basic/ch08/WhileTest.java)
+    + 💻 실습 (while 반복문. 급여 계산): [ch08/WhileTest2.java](workspace/01_basic/ch08/WhileTest2.java)
+    + 💻 실습 (while 반복문. 6이 나올때까지 주사위를 던져보자!!!): [ch08/WhileTest3.java](workspace/01_basic/ch08/WhileTest3.java)
   + [8.2 do-while 문](docs/01.java_basic.md#82-do-while-문)
-    + 💻 실습 (do-while 반복문): [ch08/DoWhileTest.java](workspace/ch08/DoWhileTest.java)
+    + 💻 실습 (do-while 반복문): [ch08/DoWhileTest.java](workspace/01_basic/ch08/DoWhileTest.java)
 
 </details>
 </details>
@@ -128,20 +128,20 @@
 #### 오전(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.3 for 문](docs/01.java_basic.md#83-for-문)
-    + 💻 실습 (for 반복문. 1부터 입력한 숫자까지의 합계): [ch08/ForTest.java](workspace/ch08/ForTest.java)
-    + 💻 실습 (for 반복문. 급여 계산): [ch08/ForTest2.java](workspace/ch08/ForTest2.java)
-    + 💻 문제 (for 반복문. 1~100 합계): [ch08/ForProb.java](workspace/ch08/ForProb.java)
-      + 💻 해결 (for 반복문. 1~100 합계): [ch08/ForSolve.java](workspace/ch08/ForSolve.java)
-    + 💻 실습 (for 반복문. 카운트 다운): [ch08/ForTest3.java](workspace/ch08/ForTest3.java)
-    + 💻 실습 (for 반복문. Scanner 사용. 구구단): [ch08/ForTest4.java](workspace/ch08/ForTest4.java)
-    + 💻 실습 (for 반복문. 계산기 프로그램): [ch08/CalculatorTest.java](workspace/ch08/CalculatorTest.java)
-    + 💻 실습 (중첩 for 반복문. 별찍기): [ch08/ForTest5.java](workspace/ch08/ForTest5.java)
-    + 💻 실습 (중첩 for 반복문. 1~9 구구단): [ch08/ForTest6.java](workspace/ch08/ForTest6.java)
+    + 💻 실습 (for 반복문. 1부터 입력한 숫자까지의 합계): [ch08/ForTest.java](workspace/01_basic/ch08/ForTest.java)
+    + 💻 실습 (for 반복문. 급여 계산): [ch08/ForTest2.java](workspace/01_basic/ch08/ForTest2.java)
+    + 💻 문제 (for 반복문. 1~100 합계): [ch08/ForProb.java](workspace/01_basic/ch08/ForProb.java)
+      + 💻 해결 (for 반복문. 1~100 합계): [ch08/ForSolve.java](workspace/01_basic/ch08/ForSolve.java)
+    + 💻 실습 (for 반복문. 카운트 다운): [ch08/ForTest3.java](workspace/01_basic/ch08/ForTest3.java)
+    + 💻 실습 (for 반복문. Scanner 사용. 구구단): [ch08/ForTest4.java](workspace/01_basic/ch08/ForTest4.java)
+    + 💻 실습 (for 반복문. 계산기 프로그램): [ch08/CalculatorTest.java](workspace/01_basic/ch08/CalculatorTest.java)
+    + 💻 실습 (중첩 for 반복문. 별찍기): [ch08/ForTest5.java](workspace/01_basic/ch08/ForTest5.java)
+    + 💻 실습 (중첩 for 반복문. 1~9 구구단): [ch08/ForTest6.java](workspace/01_basic/ch08/ForTest6.java)
 
 #### 오후(3시간)
 - [8. 반복문](docs/01.java_basic.md#8-반복문)
   + [8.4 break와 continue](docs/01.java_basic.md#84-break와-continue)
-    + 💻 실습 (break와 continue. 1~100 홀수, 짝수 합계): [ch08/ForTest7.java](workspace/ch08/ForTest7.java)
+    + 💻 실습 (break와 continue. 1~100 홀수, 짝수 합계): [ch08/ForTest7.java](workspace/01_basic/ch08/ForTest7.java)
   + 💻 실습 (멋쟁이 전사처럼 게임 개발): [homework/h01/Game.java](workspace/homework/h01/Game.java)
 
 </details>
@@ -153,16 +153,16 @@
 + 💻 과제 확인 (멋쟁이 전사처럼 게임 개발): [homework/h01](workspace/homework/h01)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.1 배열이란?](docs/01.java_basic.md#91-배열이란)
-    + 💻 실습 (배열 없이 총점, 평균 계산): [ch09/ScoreTest.java](workspace/ch09/ScoreTest.java)
-    + 💻 실습 (배열로 총점, 평균 계산): [ch09/ScoreArrayTest.java](workspace/ch09/ScoreArrayTest.java)
+    + 💻 실습 (배열 없이 총점, 평균 계산): [ch09/ScoreTest.java](workspace/01_basic/ch09/ScoreTest.java)
+    + 💻 실습 (배열로 총점, 평균 계산): [ch09/ScoreArrayTest.java](workspace/01_basic/ch09/ScoreArrayTest.java)
   + [9.2 배열 선언, 생성, 초기화](docs/01.java_basic.md#92-배열-선언-생성-초기화)
-    + 💻 실습 (배열 기본 선언 및 생성): [ch09/ArrayBasic.java](workspace/ch09/ArrayBasic.java)
+    + 💻 실습 (배열 기본 선언 및 생성): [ch09/ArrayBasic.java](workspace/01_basic/ch09/ArrayBasic.java)
   
 #### 오후(3시간)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.3 배열과 메모리 구조](docs/01.java_basic.md#93-배열과-메모리-구조)
-    + 💻 실습 (배열과 메모리 구조): [ch09/ArrayMemory.java](workspace/ch09/ArrayMemory.java)
-    + 💻 실습 (배열을 활용한 구구단): [ch09/ArrayForTest4.java](workspace/ch09/ArrayForTest4.java)
+    + 💻 실습 (배열과 메모리 구조): [ch09/ArrayMemory.java](workspace/01_basic/ch09/ArrayMemory.java)
+    + 💻 실습 (배열을 활용한 구구단): [ch09/ArrayForTest4.java](workspace/01_basic/ch09/ArrayForTest4.java)
   
 </details>
 
@@ -172,15 +172,15 @@
 #### 오전(3시간)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.4 다차원 배열](docs/01.java_basic.md#94-다차원-배열)
-    + 💻 실습 (다차원 배열 활용): [ch09/ArrayMulti.java](workspace/ch09/ArrayMulti.java)
+    + 💻 실습 (다차원 배열 활용): [ch09/ArrayMulti.java](workspace/01_basic/ch09/ArrayMulti.java)
   + [9.5 향상된 for문](docs/01.java_basic.md#95-향상된-for문)
-    + 💻 실습 (향상된 for문 활용): [ch09/EnhancedFor.java](workspace/ch09/EnhancedFor.java)
+    + 💻 실습 (향상된 for문 활용): [ch09/EnhancedFor.java](workspace/01_basic/ch09/EnhancedFor.java)
 
 #### 오후(3시간)
 - [9. 배열과 메모리 관리](docs/01.java_basic.md#9-배열과-메모리-관리)
   + [9.6 배열의 복사와 Arrays 클래스](docs/01.java_basic.md#96-배열의-복사와-arrays-클래스)
-    + 💻 실습 (배열 복사): [ch09/ArrayCopy.java](workspace/ch09/ArrayCopy.java)
-    + 💻 실습 (Arrays 클래스): [ch09/ArraysTest.java](workspace/ch09/ArraysTest.java)
+    + 💻 실습 (배열 복사): [ch09/ArrayCopy.java](workspace/01_basic/ch09/ArrayCopy.java)
+    + 💻 실습 (Arrays 클래스): [ch09/ArraysTest.java](workspace/01_basic/ch09/ArraysTest.java)
 
 </details>
 
@@ -236,9 +236,9 @@
 #### 오후(3시간)
 - [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
   + [11.1 객체, 클래스, 인스턴스](docs/02.java_oop.md#111-객체-클래스-인스턴스)
-    + 💻 실습 (학사 관리 시스템 클래스 설계): [ch11/lms](workspace/ch11/lms)
+    + 💻 실습 (학사 관리 시스템 클래스 설계): [ch11/lms](workspace/02_oop/ch11/lms)
   + [11.2 클래스의 구성 요소](docs/02.java_oop.md#112-클래스의-구성-요소)
-    + 💻 실습 (자동차 클래스 작성 - 필드와 메서드): [ch11/mycar/ex01](workspace/ch11/mycar/ex01)
+    + 💻 실습 (자동차 클래스 작성 - 필드와 메서드): [ch11/mycar/ex01](workspace/02_oop/ch11/mycar/ex01)
 
 </details>
 
@@ -249,23 +249,23 @@
 - 자바 기초 시험 문제 풀이(객관식): [exam/java/basic/객관식.md](workspace/exam/java/basic/객관식.md)
 - 자바 기초 시험 문제 풀이(주관식 문제)[exam/java/basic/TodoList.java](workspace/exam/java/basic/TodoList.java)
 - 자바 기초 시험 문제 풀이(주관식 풀이)[exam/java/basic/TodoListSolve.java](workspace/exam/java/basic/TodoListSolve.java)
-+ 💻 실습 (자동차 클래스 작성 - 생성자 추가): [ch11/mycar/ex02](workspace/ch11/mycar/ex02)
++ 💻 실습 (자동차 클래스 작성 - 생성자 추가): [ch11/mycar/ex02](workspace/02_oop/ch11/mycar/ex02)
 
 #### 오후(3시간)
 - [11. 객체지향 프로그래밍(OOP) 기초](docs/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
   + [11.3 필드 (Field)](docs/02.java_oop.md#113-필드-field)
   + [11.4 객체의 생성과 사용 방법](docs/02.java_oop.md#114-객체의-생성과-사용-방법)
     + 💻 실습 (필드와 메서드 호출)
-      - [ch11/Person.java](workspace/ch11/Person.java)
-      - [ch11/PersonTest.java](workspace/ch11/PersonTest.java)
+      - [ch11/Person.java](workspace/02_oop/ch11/Person.java)
+      - [ch11/PersonTest.java](workspace/02_oop/ch11/PersonTest.java)
   + [11.5 생성자 (Constructor)](docs/02.java_oop.md#115-생성자-constructor)
-    + 💻 실습 (생성자 정의): [ch11/MemberTest.java](workspace/ch11/MemberTest.java)
+    + 💻 실습 (생성자 정의): [ch11/MemberTest.java](workspace/02_oop/ch11/MemberTest.java)
   + [11.6 생성자 오버로딩](docs/02.java_oop.md#116-생성자-오버로딩)
-    + 💻 실습 (생성자 오버로딩, 하나의 소스에 두개의 클래스 정의): [ch11/BookTest.java](workspace/ch11/BookTest.java)
+    + 💻 실습 (생성자 오버로딩, 하나의 소스에 두개의 클래스 정의): [ch11/BookTest.java](workspace/02_oop/ch11/BookTest.java)
   + [11.7 this와 this()](docs/02.java_oop.md#117-this와-this)
-    + 💻 실습 (this() 사용): [ch11/BookTest.java](workspace/ch11/BookTest.java)
+    + 💻 실습 (this() 사용): [ch11/BookTest.java](workspace/02_oop/ch11/BookTest.java)
   + [11.8 패키지와 임포트](docs/02.java_oop.md#118-패키지와-임포트)
-    + 💻 실습 (패키지와 import): [ch11/pkg](workspace/ch11/pkg)
+    + 💻 실습 (패키지와 import): [ch11/pkg](workspace/02_oop/ch11/pkg)
 
 </details>
 
@@ -274,17 +274,17 @@
 
 #### 오전(3시간)
 + [11.9 캡슐화와 접근 제어자](docs/02.java_oop.md#119-캡슐화와-접근-제어자)
-  - 💻 실습 (캡슐화를 통해서 불필요한 sum 호출을 막음): [ch11/capsule/ex01](workspace/ch11/capsule/ex01)
-  - 💻 실습 (필드를 private으로 지정해서 외부의 직접 접근을 제한): [ch11/capsule/ex02](workspace/ch11/capsule/ex02)
-  - 💻 실습 (캡슐화가 안될 경우의 문제점): [ch11/capsule/ex03](workspace/ch11/capsule/ex03)
+  - 💻 실습 (캡슐화를 통해서 불필요한 sum 호출을 막음): [ch11/capsule/ex01](workspace/02_oop/ch11/capsule/ex01)
+  - 💻 실습 (필드를 private으로 지정해서 외부의 직접 접근을 제한): [ch11/capsule/ex02](workspace/02_oop/ch11/capsule/ex02)
+  - 💻 실습 (캡슐화가 안될 경우의 문제점): [ch11/capsule/ex03](workspace/02_oop/ch11/capsule/ex03)
 
 #### 오후(3시간)
 + [11.10 정적(static) 멤버](docs/02.java_oop.md#1110-정적static-멤버)
   - 💻 실습 (static 필드와 메서드)
-    + [ch11/statictest/MathUtil.java](workspace/ch11/statictest/MathUtil.java)
-    + [ch11/statictest/MathUtilTest.java](workspace/ch11/statictest/MathUtilTest.java)
+    + [ch11/statictest/MathUtil.java](workspace/02_oop/ch11/statictest/MathUtil.java)
+    + [ch11/statictest/MathUtilTest.java](workspace/02_oop/ch11/statictest/MathUtilTest.java)
 + [11.11 변수의 종류와 비교 (지역 변수, 인스턴스 변수, 클래스 변수)](docs/02.java_oop.md#1111-변수의-종류와-비교-지역-변수-인스턴스-변수-클래스-변수)
-  - 💻 실습 (static main 메서드) [ch11/statictest/MainMethodTest.java](workspace/ch11/statictest/MainMethodTest.java)
+  - 💻 실습 (static main 메서드) [ch11/statictest/MainMethodTest.java](workspace/02_oop/ch11/statictest/MainMethodTest.java)
   
 </details>
 
@@ -294,13 +294,13 @@
 #### 오전(3시간)
 - [12. 객체지향 심화 - 상속(Inheritance)](docs/02.java_oop.md#12-객체지향-심화---상속inheritance)
   + [12.1 상속의 개념](docs/02.java_oop.md#121-상속의-개념)
-    - 💻 실습 (Parent, Son, Doughter 상속) [ch12/familly/ex01](workspace/ch12/familly/ex01)
+    - 💻 실습 (Parent, Son, Doughter 상속) [ch12/familly/ex01](workspace/02_oop/ch12/familly/ex01)
 
 #### 오후(3시간)
 + [12.2 메서드 오버라이딩](docs/02.java_oop.md#122-메서드-오버라이딩)
-  - 💻 실습 (Animal, Dog, Cat 상속) [ch12/animal](workspace/ch12/animal)
+  - 💻 실습 (Animal, Dog, Cat 상속) [ch12/animal](workspace/02_oop/ch12/animal)
 + [12.3 super와 super()](docs/02.java_oop.md#123-super와-super)
-  - 💻 실습 (Car, Bus 상속) [ch12/car](workspace/ch12/car)
+  - 💻 실습 (Car, Bus 상속) [ch12/car](workspace/02_oop/ch12/car)
 
 </details>
 
@@ -310,14 +310,14 @@
 #### 오전(3시간)
 + [12.4 final 키워드와 상속](docs/02.java_oop.md#124-final-키워드와-상속)
   + [12.5 Object 클래스](docs/02.java_oop.md#125-object-클래스)
-    - 💻 실습 (toString(), equals(), hashCode() 오버라이딩) [ch12/car](workspace/ch12/car)
+    - 💻 실습 (toString(), equals(), hashCode() 오버라이딩) [ch12/car](workspace/02_oop/ch12/car)
   + [12.6 클래스 관계 설계: 포함(Has-A) vs 상속(Is-A)](docs/02.java_oop.md#126-클래스-관계-설계-포함has-a-vs-상속is-a)
 
 #### 오후(3시간)
 - [13. 객체지향 심화 - 다형성(Polymorphism)과 인터페이스](docs/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
   + [13.1 다형성](docs/02.java_oop.md#131-다형성)
   + [13.2 instanceof 연산자](docs/02.java_oop.md#132-instanceof-연산자)
-    - 💻 실습 (Parent, Son, Doughter 업캐스팅, 다운캐스팅) [ch13/familly/ex01](workspace/ch13/familly/ex01)
+    - 💻 실습 (Parent, Son, Doughter 업캐스팅, 다운캐스팅) [ch13/familly/ex01](workspace/02_oop/ch13/familly/ex01)
 
 </details>
 
@@ -331,17 +331,17 @@
 
 #### 오전(3시간)
   + [13.3 추상 클래스](docs/02.java_oop.md#133-추상-클래스)
-    - 💻 실습 (Parent, Son, Doughter 추상클래스로 변경) [ch13/familly/ex02](workspace/ch13/familly/ex02)
+    - 💻 실습 (Parent, Son, Doughter 추상클래스로 변경) [ch13/familly/ex02](workspace/02_oop/ch13/familly/ex02)
   + [13.4 인터페이스](docs/02.java_oop.md#134-인터페이스)
   + [13.5 인터페이스의 구현 메서드 (default, static, private)](docs/02.java_oop.md#135-인터페이스의-구현-메서드-default-static-private)
 
 #### 오후(3시간)
-- 💻 실습 (SuperCar 상속, Chargeable 인터페이스 구현) [ch13/supercar](workspace/ch13/supercar)
+- 💻 실습 (SuperCar 상속, Chargeable 인터페이스 구현) [ch13/supercar](workspace/02_oop/ch13/supercar)
 - [14. 자바 주요 패키지와 API](docs/02.java_oop.md#14-자바-주요-패키지와-api)
   + [14.1 자바 API 문서](docs/02.java_oop.md#141-자바-api-문서)
   + [14.2 주요 패키지 개요](docs/02.java_oop.md#142-주요-패키지-개요)
   + [14.3 String 클래스](docs/02.java_oop.md#143-string-클래스)
-    - 💻 실습 (String 클래스) [ch14/StringTest.java](workspace/ch14/StringTest.java)
+    - 💻 실습 (String 클래스) [ch14/StringTest.java](workspace/02_oop/ch14/StringTest.java)
 
 </details>
 
@@ -350,23 +350,23 @@
 
 #### 오전(3시간)
 + [14.3 String 클래스](docs/02.java_oop.md#143-string-클래스)
-  - 💻 실습 (String 메서드) [ch14/StringMethodTest.java](workspace/ch14/StringMethodTest.java)
+  - 💻 실습 (String 메서드) [ch14/StringMethodTest.java](workspace/02_oop/ch14/StringMethodTest.java)
 + [14.4 StringBuffer와 StringBuilder 클래스](docs/02.java_oop.md#144-stringbuffer와-stringbuilder-클래스)
-  - 💻 실습 (StringBuffer 클래스) [ch14/StringBufferTest.java](workspace/ch14/StringBufferTest.java)
+  - 💻 실습 (StringBuffer 클래스) [ch14/StringBufferTest.java](workspace/02_oop/ch14/StringBufferTest.java)
 + [14.6 래퍼 클래스 (Wrapper Class)](docs/02.java_oop.md#146-래퍼-클래스-wrapper-class)
-  - 💻 실습 (Wrapper 클래스) [ch14/WrapperTest.java](workspace/ch14/WrapperTest.java)
+  - 💻 실습 (Wrapper 클래스) [ch14/WrapperTest.java](workspace/02_oop/ch14/WrapperTest.java)
 #### 오후(3시간)
 + [14.7 Math 클래스](docs/02.java_oop.md#147-math-클래스)
-  - 💻 실습 (Math 클래스) [ch14/MathTest.java](workspace/ch14/MathTest.java)
+  - 💻 실습 (Math 클래스) [ch14/MathTest.java](workspace/02_oop/ch14/MathTest.java)
 + [14.8 Scanner 클래스](docs/02.java_oop.md#148-scanner-클래스)
-  - 💻 실습 (Scanner 클래스) [ch14/ScannerTest.java](workspace/ch14/ScannerTest.java)
+  - 💻 실습 (Scanner 클래스) [ch14/ScannerTest.java](workspace/02_oop/ch14/ScannerTest.java)
 + [14.9 Random 클래스](docs/02.java_oop.md#149-random-클래스)
-  - 💻 실습 (Random 클래스) [ch14/RandomTest.java](workspace/ch14/RandomTest.java)
+  - 💻 실습 (Random 클래스) [ch14/RandomTest.java](workspace/02_oop/ch14/RandomTest.java)
 + [14.10 날짜와 시간 클래스 (java.time 패키지)](docs/02.java_oop.md#1410-날짜와-시간-클래스-javatime-패키지)
-  - 💻 실습 (java.time 패키지) [ch14/TimeTest.java](workspace/ch14/TimeTest.java)
+  - 💻 실습 (java.time 패키지) [ch14/TimeTest.java](workspace/02_oop/ch14/TimeTest.java)
 + [14.11 ArrayList 클래스](docs/02.java_oop.md#1411-arraylist-클래스)
-  - 💻 실습 (가변 배열 만들기) [ch14/ArrayTest.java](workspace/ch14/ArrayTest.java)
-  - 💻 실습 (ArrayList 클래스) [ch14/ArrayListTest.java](workspace/ch14/ArrayListTest.java)
+  - 💻 실습 (가변 배열 만들기) [ch14/ArrayTest.java](workspace/02_oop/ch14/ArrayTest.java)
+  - 💻 실습 (ArrayList 클래스) [ch14/ArrayListTest.java](workspace/02_oop/ch14/ArrayListTest.java)
 
 </details>
 
@@ -391,21 +391,22 @@
 <summary><h3>19일차(2026.06.12 금)</h3></summary>
 
 ##### 오전
-- [2. SQL 기본](#2-sql-기본)
+- [2. SQL 기본](docs/03.database-1.md#2-sql-기본)
   - [2.1 DDL (CREATE TABLE과 제약조건)](docs/03.database-1.md#21-ddl-create-table과-제약조건)
     - 💻 실습 (데이터베이스 생성 및 삭제) [01_DDL/database.sql](workspace/03_database/query/01_DDL/database.sql)
     - 💻 실습 (테이블 생성 및 삭제) [01_DDL/table.sql](workspace/03_database/query/01_DDL/table.sql)
 
 ##### 오후
-- [2. SQL 기본](#2-sql-기본)
-  - [2.2 DML (INSERT, SELECT, UPDATE, DELETE)](#22-dml-insert-select-update-delete)
+- [2. SQL 기본](docs/03.database-1.md#2-sql-기본)
+  - [2.2 DML (INSERT, SELECT, UPDATE, DELETE)](docs/03.database-1.md#22-dml-insert-select-update-delete)
     - 💻 실습 (데이터 등록, Create) [02_DML/insert.sql](workspace/03_database/query/02_DML/insert.sql)
     - 💻 실습 (데이터 조회, Read) [02_DML/select.sql](workspace/03_database/query/02_DML/select.sql)
     - 💻 실습 (데이터 수정, Update) [02_DML/update.sql](workspace/03_database/query/02_DML/update.sql)
     - 💻 실습 (데이터 삭제, Delete) [02_DML/dalete.sql](workspace/03_database/query/02_DML/dalete.sql)
     - 💻 실습 (게시판 테이블 생성 및 데이터 등록) [init_board_db.sql](workspace/03_database/query/init_board_db.sql)
-  - [2.3 SELECT 문 기초 (WHERE, ORDER BY, LIMIT)](#23-select-문-기초-where-order-by-limit)
+  - [2.3 SELECT 문 기초 (WHERE, ORDER BY, LIMIT)](docs/03.database-1.md#23-select-문-기초-where-order-by-limit)
     - 💻 실습 (데이터 조회 - 조건 검색, 정렬, 갯수 제한) [02_DML/select.sql](workspace/03_database/query/02_DML/select.sql)
+
 </details>
 
 <details>
