@@ -148,7 +148,3 @@ SET DEFAULT ROLE 'developer' TO 'user1'@'localhost';
 
 
 
-
-
-
-
