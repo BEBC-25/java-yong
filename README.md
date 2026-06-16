@@ -455,7 +455,7 @@
   - [5.1 게시판 요구사항 정의](docs/03.database-1.md#51-게시판-요구사항-정의)
   - [5.2 테이블 생성 및 샘플 데이터 삽입](docs/03.database-1.md#52-테이블-생성-및-샘플-데이터-삽입)
   - [5.3 조회 쿼리 연습](docs/03.database-1.md#53-조회-쿼리-연습)
-  - 💻 실습 (게시판 스키마 작성) [board-exam.sql](workspace/03_database/query/board-exam.sql)
+  - 💻 실습 (게시판 스키마 작성) [board_exam.sql](workspace/03_database/query/board_exam.sql)
 
 </details>
 
