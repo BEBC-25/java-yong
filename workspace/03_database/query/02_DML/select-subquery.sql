@@ -76,19 +76,19 @@ FROM post
 WHERE member_id IS NOT NULL
 GROUP BY member_id
 HAVING COUNT(*) > (
-SELECT AVG(cnt)
+	SELECT AVG(cnt)
 	FROM (
 		SELECT member_id, COUNT(*) AS cnt
 		FROM post
 		WHERE member_id IS NOT NULL
 		GROUP BY member_id
 	) AS sub
-)
+);
+
+SELECT 1 FROM post WHERE member_id = 4;
 
 
-
-
-
+SELECT 1 FROM reply r WHERE r.post_id = 5;
 
 
 
