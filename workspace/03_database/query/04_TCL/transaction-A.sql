@@ -18,7 +18,7 @@ COMMIT;
 -- 오류 발생시 원래 상태고 복구
 ROLLBACK;
 
-
-
+-- 현재 격리 수준 확인
+SELECT @@transaction_isolation;
 
 
