@@ -479,7 +479,7 @@
 - [7. JDBC (Java Database Connectivity)](docs/04.database-2.md#7-jdbc-java-database-connectivity)
   + [7.1 JDBC 동작 원리 및 주요 인터페이스](docs/04.database-2.md#71-jdbc-동작-원리-및-주요-인터페이스)
   + [7.2 JDBC 실습 예제](docs/04.database-2.md#72-jdbc-실습-예제)
-    - 💻 실습 (게시판 회원 가입, 목록 조회 JDBC 프로그램) [JdbcBasicTest.java](workspace/03_database/ch07/JdbcBasicTest.java)
+    - 💻 실습 (게시판 회원 가입, 목록 조회 JDBC 프로그램) [JdbcMemberTest.java](workspace/03_database/ch07/JdbcMemberTest.java)
 
 </details>
 
@@ -487,10 +487,16 @@
 <summary><h3>23일차(2026.06.18 목)</h3></summary>
 
 #### 오전(3시간)
-  
+- 💻 실습 (JDBC 프로그램 - 게시글 CRUD) [JdbcPostTest.java](workspace/03_database/ch07/JdbcPostTest.java)
 
 #### 오후(3시간)
-
+- 💻 실습 (JDBC 프로그램 - PreparedStatement) [JdbcPostPreparedTest.java](workspace/03_database/ch07/JdbcPostPreparedTest.java)
++ [7.3 커넥션 풀(Connection Pool) 이해](docs/04.database-2.md#73-커넥션-풀connection-pool-이해)
+  - 💻 실습 (HikariCP를 이용한 Connection Pool) [ConnectionPoolTest.java](workspace/03_database/ch07/ConnectionPoolTest.java)
+  - 💻 실습 (Connection Pool의 성능 테스트)
+    + [hikari.properties](resources/hikari.properties)
+    + [PerformanceTest.java](workspace/03_database/ch07/PerformanceTest.java)
+  - 💻 실습 (수동 트랜잭션 제어, 회원 탈퇴시 게시글도 같이 삭제) [JdbcMemberTest.java](workspace/03_database/ch07/JdbcMemberTest.java#L161)
 
 </details>
 
