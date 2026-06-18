@@ -105,10 +105,13 @@ INSERT INTO reply (post_id, member_id, content, created_at) VALUES
 
 -- 사용자 삭제
 DROP USER IF EXISTS 'user1'@'localhost';
+DROP USER IF EXISTS 'user2'@'%';
 
 -- 로컬 호스트 전용 계정 생성
 CREATE USER 'user1'@'localhost' IDENTIFIED BY '1111';
 
+-- 원격 호스트 전용 계정 생성
+CREATE USER 'user2'@'%' IDENTIFIED BY '1111';
 
 -- 개발자용 권한 그룹 생성
 DROP ROLE IF EXISTS 'developer';
@@ -120,10 +123,14 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON board_db.* TO 'developer';
 -- user1에게 개발자 그룹 권한 부여
 GRANT 'developer' TO 'user1'@'localhost';
 
+-- user2에게 개발자 그룹 권한 부여
+GRANT 'developer' TO 'user2'@'%';
+
 -- user1 로그인 시 developer 권한 그룹이 기본으로 활성화되도록 설정
 SET DEFAULT ROLE 'developer' TO 'user1'@'localhost';
 
-
+-- user2 로그인 시 developer 권한 그룹이 기본으로 활성화되도록 설정
+SET DEFAULT ROLE 'developer' TO 'user2'@'%';
 
 
 
