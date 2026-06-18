@@ -14,7 +14,8 @@ DELETE FROM member
     WHERE id = 1;
 
 
-
+-- 2번 회원의 모든 게시글 삭제
+DELETE FROM post WHERE member_id = 2;
 
 
 
