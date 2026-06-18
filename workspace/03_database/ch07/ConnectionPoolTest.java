@@ -102,7 +102,7 @@ public class ConnectionPoolTest {
             pstmt.setString(3, content);
             int affectedRows = pstmt.executeUpdate();
 
-            System.out.println("게시글 등록 완료: " + affectedRows + "건 반영됨.");
+//            System.out.println("게시글 등록 완료: " + affectedRows + "건 반영됨.");
 
         }catch(Exception e){ // 플랜 B
             System.out.println("에러 발생: " + e.getMessage());

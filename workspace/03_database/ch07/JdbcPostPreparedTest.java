@@ -6,6 +6,9 @@ public class JdbcPostPreparedTest {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/board_db?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
     private static final String DB_USER = "user1";
+
+//    private static final String DB_URL = "jdbc:mysql://dain2.iptime.org:3306/board_db?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
+//    private static final String DB_USER = "user2";
     private static final String DB_PASSWORD = "1111";
 
     public static void main(String[] args){
@@ -87,7 +90,7 @@ public class JdbcPostPreparedTest {
             pstmt.setString(3, content);
             int affectedRows = pstmt.executeUpdate();
 
-            System.out.println("게시글 등록 완료: " + affectedRows + "건 반영됨.");
+//            System.out.println("게시글 등록 완료: " + affectedRows + "건 반영됨.");
 
         }catch(Exception e){ // 플랜 B
             System.out.println("에러 발생: " + e.getMessage());
