@@ -74,13 +74,14 @@ SELECT id, title, created_at
 
 
 
+-- 로그인 체크
+SELECT * FROM member WHERE email = 'haru@gmail.com' AND password = '123';
+SELECT * FROM member WHERE email = 'haru@gmail.com' AND password = 'pwd123';
 
+-- SQL Injection 기법
+SELECT * FROM member WHERE email = 'haru@gmail.com' OR '1' = '1' AND password = 'sdfgdfrtyrty';
 
-
-
-
-
-
+SELECT * FROM member WHERE email = 'haru@gmail.com'; DROP TABLE MEMBER; -- ' AND password = '123';
 
 
 

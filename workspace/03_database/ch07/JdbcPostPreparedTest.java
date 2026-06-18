@@ -9,15 +9,62 @@ public class JdbcPostPreparedTest {
     private static final String DB_PASSWORD = "1111";
 
     public static void main(String[] args){
-        findAll();
-        insert(2, "2번이 등록한 게시글", "안녕하세요. 자바 공부 해요.");
-        findById(10);
-        update(10, "수정된 10번 게시글", "수정했어요");
-        findAll();
-        delete(10);
+//        findAll();
+//        insert(2, "2번이 등록한 게시글", "안녕하세요. 자바 공부 해요.");
+//        findById(10);
+//        update(10, "수정된 10번 게시글", "수정했어요");
+//        findAll();
+//        delete(10);
+//
+//        deleteAll(2);
+//        findAll("자바");
 
-        deleteAll(2);
-        findAll("자바");
+        login("haru@gmail.com", "123");
+        login("haru@gmail.com", "pwd123");
+        login("haru@gmail.com' OR '1' = '1", "sdfsadfasdf");
+    }
+
+    // 로그인
+    public static void login(String email, String password){
+        String sql = "SELECT * FROM member WHERE email = ? AND password = ?";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try{ // 플랜 A
+            // 1. 데이터베이스 연결(Connection 객체 생성)
+            conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+            // 2. SQL 실행 객체 생성(Statement 객체 생성)
+            pstmt = conn.prepareStatement(sql);
+
+            // 3. SQL 실행(SELECT)
+            // 4. 결과 수신(ResultSet 객체 생성)
+            pstmt.setString(1, email);
+            pstmt.setString(2, password);
+            rs = pstmt.executeQuery();
+
+            if(rs.next()){
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String phone = rs.getString("phone");
+
+                System.out.println("로그인에 성공했습니다.");
+                System.out.println("ID: " + id + ", 이메일: " + email + ", 이름: " + name + ", 전화번호: " + phone);
+            }else{
+                System.out.println("아이디와 패스워드를 확인하세요.");
+            }
+
+        }catch(Exception e){ // 플랜 B
+            System.out.println("에러 발생: " + e.getMessage());
+            e.printStackTrace();
+        }finally{
+            // 5. 생성된 리소스를 생성의 역순으로 해제
+            try{ if(rs != null) rs.close(); } catch (Exception e){ }
+            try{ if(pstmt != null) pstmt.close(); } catch (Exception e){ }
+            try{ if(conn != null) conn.close(); } catch (Exception e){ }
+        }
     }
 
     // 등록(C)
