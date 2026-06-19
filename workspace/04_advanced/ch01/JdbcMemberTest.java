@@ -14,11 +14,14 @@ public class JdbcMemberTest {
     public static void main(String[] args){
         selectAllMembers(); // 회원 목록 조회
 
-
-        // Exception 처리의 주체를 상위 메서드로 했으므로 이곳에서 try-catch로 처리함
-        insertMember("haru" + (int)(Math.random() * 1000) + "@gmail.com", "1234", "뉴하루", "0102222111133333", 2); // 회원 등록
-
-
+        // insertMember에서 Exception 처리의 주체를 상위 메서드로 전가 했으므로 이곳에서 try-catch로 처리함
+        try{
+            insertMember("haru" + (int)(Math.random() * 1000) + "@gmail.com", "1234", "뉴하루", "010-2222-3333", 2); // 회원 등록
+        }catch(IllegalArgumentException e){
+            System.out.println(e.getMessage());
+            insertMember("haru" + (int)(Math.random() * 1000) + "@gmail.com", "1234", "뉴하루"
+                            , "010-2222-3333".replace("-", ""), 2); // 회원 등록
+        }
 
         updateMember(3, "3333", "3번회원", "01033333333");
         deleteMember(1);
@@ -75,10 +78,11 @@ public class JdbcMemberTest {
     }
 
     // 회원 등록
-    public static void insertMember(String email, String password, String name, String phone, int recommenderId){
+    public static void insertMember(String email, String password
+                                , String name, String phone, int recommenderId) throws IllegalArgumentException {
 
-        if(phone.length() > 12){
-            throw new IllegalArgumentException("phone은 12자 이내여야 합니다.");
+        if(phone.length() > 11){
+            throw new IllegalArgumentException("phone은 11자 이내여야 합니다.");
         }
 
         try(Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
