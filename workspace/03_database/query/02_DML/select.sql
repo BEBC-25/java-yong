@@ -17,7 +17,6 @@ SELECT member_id
 -- 게시글을 작성한 회원 ID 목록을 중복 없이 조회
 SELECT DISTINCT member_id
     FROM post;
-2026-06-16 07:26:30
 
 
 -- 특정 이메일을 사용하는 회원 정보 조회
