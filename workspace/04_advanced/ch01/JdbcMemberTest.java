@@ -27,13 +27,22 @@ public class JdbcMemberTest {
         deleteMember(1);
         selectAllMembers(); // 회원 목록 조회
 
-        login("haru@gmail.com", "123");
+        try {
+            login("haru@gmail.com", "    ");
+        } catch (LoginFailException e) {
+            System.out.println(e.getMessage());
+        }
 //        login("haru@gmail.com", "pwd123");
 //        login("haru@gmail.com' OR '1' = '1", "sdfsadfasdf");
     }
 
     // 로그인
-    public static void login(String email, String password){
+    public static void login(String email, String password) throws LoginFailException {
+
+        if(email == null || email.isBlank() || password == null || password.isBlank()){
+            throw new LoginFailException("email과 password를 확인하세요.");
+        }
+
         String sql = "SELECT * FROM member WHERE email = '"+email+"' AND password = '"+password+"'";
         System.out.println("로그인 쿼리: " + sql);
 
