@@ -13,8 +13,8 @@ public class TryCatchTest {
     // num1을 arr 배열의 index 0값을 꺼내서 앞뒤 공백을 제거한 후 문자열의 길이로 나눈 결과를 출력
     void divide(int num1, String[] arr){
         try{
-            int num2 = arr[0].trim().length(); // str이 null일 경우 NullPointerException 발생
-            int result = num1 / num2; // str이 ""일 경우 ArithmeticException 발생
+            int num2 = arr[0].trim().length(); // arr[0]이 null일 경우 NullPointerException 발생, arr가 빈 배열일 경우 ArrayIndexOutOfBoundsException
+            int result = num1 / num2; // arr[0]이 "   "일 경우 ArithmeticException 발생
             System.out.println(num1 + " / " + num2 + " = " + result);
             return;
         }catch(ArithmeticException e){
