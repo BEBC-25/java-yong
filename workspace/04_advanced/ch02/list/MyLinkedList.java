@@ -55,7 +55,7 @@ public class MyLinkedList {
             appendFirst(data);
         }else{
             Node newNode = new Node(data); // 추가할 새로운 노드
-            Node pNode = getNode(index);
+            Node pNode = getNode(index-1);
             Node nNode = pNode.nextNode;
             newNode.nextNode = nNode;
             pNode.nextNode = newNode;
@@ -100,7 +100,39 @@ public class MyLinkedList {
         pNode.nextNode = nNode;
         size--;
     }
-    
+
+    /**
+     * 지정한 index의 요소를 반환한다.
+     * @param index 요소의 index
+     * @return index 위치의 요소
+     */
+    public Object get(int index){
+        return getNode(index).data;
+    }
+
+    /**
+     * 전체 요소의 수를 반환한다.
+     * @return 전체 요소의 수
+     */
+    public int size(){
+        return this.size;
+    }
+
+    public String toString() {
+        StringBuffer result = new StringBuffer("[");
+        Node node = header.nextNode;
+        if (node != null) {
+            result.append(node.data);
+            node = node.nextNode;
+            while (node != null) {
+                result.append(", ");
+                result.append(node.data);
+                node = node.nextNode;
+            }
+        }
+        result.append("]");
+        return result.toString();
+    }
 
     /**
      * index 위치의 Node를 찾아서 반환한다.

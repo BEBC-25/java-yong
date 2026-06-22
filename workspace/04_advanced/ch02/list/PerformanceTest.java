@@ -4,7 +4,8 @@ public class PerformanceTest {
     void main(){
         int times = 100000;
 
-        MyArray list = new MyArray(times);
+//        MyArray list = new MyArray(times);
+        MyLinkedList list = new MyLinkedList();
 
         long start = System.currentTimeMillis();
         addFirst(list, times);
