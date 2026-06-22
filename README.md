@@ -505,10 +505,21 @@
 <summary><h3>24일차(2026.06.19 금)</h3></summary>
 
 #### 오전(3시간)
-  
+- [1. 예외 처리(Exception)](docs/05.java_advanced.md#1-예외-처리exception)
+  + [1.1 에러와 예외](docs/05.java_advanced.md#11-에러와-예외)
+    - 💻 실습 (Exception과 Error): [ch01/ErrorTest.java](workspace/04_advanced/ch01/ErrorTest.java)
+  + [1.2 예외 클래스의 계층 구조](docs/05.java_advanced.md#12-예외-클래스의-계층-구조)
+  + [1.3 try-catch-finally 블록과 자원 관리](docs/05.java_advanced.md#13-try-catch-finally-블록과-자원-관리)
+    - 💻 실습 (try-catch-finally): [ch01/TryCatchTest.java](workspace/04_advanced/ch01/TryCatchTest.java)
+    - 💻 실습 (Multi-catch): [ch01/MultiCatchTest.java](workspace/04_advanced/ch01/MultiCatchTest.java)
+    - 💻 실습 (try-with-resources): [ch01/JdbcMemberTest.java](workspace/04_advanced/ch01/JdbcMemberTest.java)
 
 #### 오후(3시간)
-
+  + [1.4 throws와 throw](docs/05.java_advanced.md#14-throws와-throw)
+  + [1.5 사용자 정의 예외](docs/05.java_advanced.md#15-사용자-정의-예외)
+    - 💻 실습 (사용자 정의 예외)
+      + [ch01/LoginFailException.java](workspace/04_advanced/ch01/LoginFailException.java)
+      + [ch01/JdbcMemberTest.java](workspace/04_advanced/ch01/JdbcMemberTest.java)
 
 </details>
 
@@ -516,10 +527,16 @@
 <summary><h3>25일차(2026.06.22 월)</h3></summary>
 
 #### 오전(3시간)
-  
+  - 💻 실습 (배열을 이용한 리스트 자료구조 직접 개발)
+    + [ch02/list/MyArray.java](workspace/04_advanced/ch02/list/MyArray.java)
+    + [ch02/list/MyArrayTest.java](workspace/04_advanced/ch02/list/MyArrayTest.java)
+    + [ch02/list/PerformanceTest.java](workspace/04_advanced/ch02/list/PerformanceTest.java)
 
 #### 오후(3시간)
-
+  - 💻 실습 (연결리스트를 이용한 리스트 자료구조 직접 개발)
+    + [ch02/list/MyLinkedList.java](workspace/04_advanced/ch02/list/MyLinkedList.java)
+    + [ch02/list/MyLinkedListTest.java](workspace/04_advanced/ch02/list/MyLinkedListTest.java)
+    + [ch02/list/PerformanceTest.java](workspace/04_advanced/ch02/list/PerformanceTest.java)
 
 </details>
 
