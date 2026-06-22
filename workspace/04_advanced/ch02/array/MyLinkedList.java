@@ -1,16 +1,14 @@
 package ch02.array;
 
-import java.util.Arrays;
-
 /**
  * 배열의 불편한점은 다음과 같다.
  * 생성시 길이를 지정해야 함.
  * 생성된 배열의 길이는 수정 못함.
  * 요소 추가, 삭제, 삽입이 어려움.
  *
- * 이러한 불편한 점을 개선하여 배열을 쓰기 쉽게 만드는 클래스
+ * 이러한 불편한 점을 개선하여 리스트 형태의 자료를 쉽게 관리하는 클래스
  */
-public class MyArray {
+public class MyLinkedList {
 
     /**
      * 내부적으로 요소를 저장하는 배열 선언
@@ -23,22 +21,13 @@ public class MyArray {
 
     /**
      * 기본 생성자
-     * 초기 배열의 크기를 10개로 지정한다.
      */
-    public MyArray(){
-        this(10);
+    public MyLinkedList(){
+
     }
 
     /**
-     * 초기 배열의 크기를 지정한 size로 생성한다.
-     * @param size 배열의 초기 크기
-     */
-    public MyArray(int size){
-        this.data = new Object[size];
-    }
-
-    /**
-     * 배열의 마지막 위치에 지정한 elem를 추가한다.
+     * 리스트의 마지막 위치에 지정한 elem를 추가한다.
      * @param elem 추가할 요소
      */
     public void append(Object elem){
@@ -51,19 +40,12 @@ public class MyArray {
      * @param elem 삽입할 요소
      */
     public void append(int index, Object elem){
-        if(index < 0){
+        if(count >= data.length){ // 내부 배열의 공간이 다 찼을 경우 예외 발생
+            throw new ArrayIndexOutOfBoundsException("더이상 추가할 수 없습니다.");
+        }else if(index < 0){
             throw new ArrayIndexOutOfBoundsException(index + " < 0");
         }else if(index > count){
             throw new ArrayIndexOutOfBoundsException(index + " > " + count);
-        }
-
-        if(count >= data.length) { // 내부 배열의 공간이 다 찼을 경우 배열의 크기를 늘린다.(1.5배)
-            Object[] temp = new Object[data.length + data.length/2];
-            for(int i=0; i<data.length; i++){
-                temp[i] = data[i];
-            }
-            System.out.println(data.length + " -> " + temp.length);
-            data = temp;
         }
 
         // index부터 끝까지 하나씩 뒤로 미는 작업
