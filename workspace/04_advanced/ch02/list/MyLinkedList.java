@@ -59,7 +59,7 @@ public class MyLinkedList {
             Node nNode = pNode.nextNode;
             newNode.nextNode = nNode;
             pNode.nextNode = newNode;
-
+            size++;
         }
     }
 
@@ -69,6 +69,36 @@ public class MyLinkedList {
      */
     public void appendTo(Object data){
         appendTo(size, data);
+    }
+
+    /**
+     * 리스트의 첫번째 요소를 삭제한다.
+     */
+    private void removeFirst() {
+        // 첫번째 노드의 다음 노드를 첫번째 노드로 지정하고
+        Node firstNode = header.nextNode;
+        header.nextNode = firstNode.nextNode;
+        // 사이즈 감소
+        size--;
+    }
+
+    /**
+     * 지정한 index 요소를 삭제한다.
+     * @param index 삭제한 요소의 index
+     */
+    public void remove(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        } else if (index == 0) {
+            removeFirst();
+        }
+
+        Node pNode = getNode(index-1); // 삭제할 노드의 이전 노드
+        Node rNode = pNode.nextNode; // 삭제할 노드
+        Node nNode = rNode.nextNode; // 삭제할 노드의 다음 노드
+
+        pNode.nextNode = nNode;
+        size--;
     }
     
 
