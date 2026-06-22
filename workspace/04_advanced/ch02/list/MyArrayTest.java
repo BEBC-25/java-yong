@@ -1,4 +1,4 @@
-package ch02.array;
+package ch02.list;
 
 public class MyArrayTest {
     void main(){

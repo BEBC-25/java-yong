@@ -1,6 +1,4 @@
-package ch02.array;
-
-import java.util.Arrays;
+package ch02.list;
 
 /**
  * 배열의 불편한점은 다음과 같다.
