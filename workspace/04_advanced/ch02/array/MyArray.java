@@ -76,7 +76,7 @@ public class MyArray {
             throw new ArrayIndexOutOfBoundsException(index + " < 0");
         }
 
-        // index부터 끝까지 하나씩 뒤로 미는 작업
+        // index부터 끝까지 하나씩 앞으로 당기는 작업
         System.arraycopy(data, index+1, data, index, count-index-1);
         count--;
         data[count] = null;
