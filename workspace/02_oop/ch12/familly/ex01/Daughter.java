@@ -7,7 +7,7 @@ public class Daughter {
 //    Parent(){}
 
     // 생성자: 클래스명과 동일한 이름, 리턴타입은 없음
-    Daughter(String name){
+    public Daughter(String name){
         this.name = name;
     }
 
