@@ -4,20 +4,20 @@ public class MyArrayTest {
     void main(){
         // 10개의 요소를 담을 수 있는 MyArray 객체를 생성한다.
 //        MyList arr = new MyArray();
-        MyList arr = new MyArray(5);
+        MyList<String> arr = new MyArray<>(5);
 
         // MyArray에 "데이터-0" 부터 "데이터-4"까지의 문자열을 담는다.(append())
         for(int i=0; i<500; i++){
-            arr.add("데이터-" + i);
+            arr.add("DaTa-" + i);
         }
 
         // MyArray에 담긴 모든 요소를 출력한다. [데이터-0, 데이터-1, 데이터-2, 데이터-3, 데이터-4]
         System.out.println(arr);
 
         // MyArray의 0번째 요소를 출력한다.(getElem()) 데이터-0
-        System.out.println(arr.get(0));
+        System.out.println(((String)arr.get(0)).toLowerCase());
         // MyArray의 3번째 요소를 출력한다.(getElem()) 데이터-3
-        System.out.println(arr.get(3));
+        System.out.println(arr.get(3).toUpperCase());
 
         // index 2를 삭제한다.(delete()) 데이터-2
         arr.remove(2);
