@@ -6,6 +6,7 @@
 ### [3. 데이터베이스 기초](docs/03.database-1.md)
 ### [4. 데이터베이스 심화 및 자바 연동](docs/04.database-2.md)
 ### [5. 자바 프로그래밍 심화](docs/05.java_advanced.md)
+### [6. 자바스크립트 초초초 핵심 요약](docs/06.javascript.md)
 
 # 수업 진도
 <details>
@@ -675,8 +676,8 @@ java --version
 - java 실습 폴더 생성 후 이동
 ```bash
 # mkdir java_본인이니셜
-mkdir java_yong
-cd java_yong
+mkdir java-yong
+cd java-yong
 ```
 
 ##### 3. 코드를 작성할 폴더 생성 후 이동
@@ -756,7 +757,7 @@ Hello World!!!
 <img src="images/intellij/07.png" width="320">
 <img src="images/intellij/08.png" width="480">
 
-##### 2. Open > java_yong
+##### 2. Open > java-yong
 - [[2. java 실습 폴더 생성]](#2-java-실습-폴더-생성)에서 생성한 폴더 선택
 
 
