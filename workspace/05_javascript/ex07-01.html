@@ -48,25 +48,46 @@
 
     // 논리합(OR)
     // 피연산자 둘 중 하나라도 true일 경우 true가 됨
-    
+    console.log(true || true); // true
+    console.log(true || false); // true
+    console.log(false || true); // true
+    console.log(false || false); // false
+
     // ID 유효성 검사(4글자에서 12글자로 입력)
-    let id = 'ashsdfdsa';
+    let id = 'asa';
+    const invalidId1 = id.length < 4 || id.length > 12;
+    const invalidId2 = !(id.length >= 4 && id.length <= 12);
     
     console.log('id 입력 조건에 맞지 않음', invalidId1, invalidId2);
 
     // OR 연산자의 특징
     // 앞의 값이 truthy 라면 앞의 값을 반환
     // 앞의 값이 falsy 라면 뒤의 값을 반환
-    
+    console.log('hello' || 'world');
+    console.log(90 || 100);
+    console.log(0 || 200);
+    console.log(null || 'guest');
+    console.log(undefined || 'guest');
+    console.log('' || 'guest');
 
     // 논리곱(AND)
     // 피연산자 둘 다 true일 경우 true가 됨
-    
+    console.log(true && true); // true
+    console.log(true && false); // false
+    console.log(false && true); // false
+    console.log(false && false); // false
 
     // AND 연산자의 특징
     // 앞의 값이 truthy 라면 뒤의 값을 반환
     // 앞의 값이 falsy 라면 앞의 값을 반환
-    
+    let userName;
+    // let userName = '하루';
+
+    // null, undeinfed 체크
+    console.log('회원명 글자수', userName && userName.length);
+    console.log('회원명 글자수', userName?.length); // 옵셔녈 체이닝
+
+    console.log('프로그램 정상 종료됨.');
 
   </script>
 </head>
