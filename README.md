@@ -6,6 +6,7 @@
 ### [3. 데이터베이스 기초](docs/03.database-1.md)
 ### [4. 데이터베이스 심화 및 자바 연동](docs/04.database-2.md)
 ### [5. 자바 프로그래밍 심화](docs/05.java_advanced.md)
+### [6. 자바스크립트 초초초 핵심 요약](docs/06.javascript.md)
 
 # 수업 진도
 <details>
@@ -542,6 +543,79 @@
 
 </details>
 
+<details>
+<summary><h2>6주차 - 2026.06.23(화) ~ 2026.06.30(화)</h2></summary>
+
+<details>
+<summary><h3>26일차(2026.06.23 화)</h3></summary>
+
+#### 오전(3시간)
+- [2. 자료 구조와 컬렉션 프레임워크(Collection)](docs/05.java_advanced.md#2-자료-구조와-컬렉션-프레임워크collection)
+  + [2.1 자료 구조](docs/05.java_advanced.md#21-자료-구조)
+  + [2.2 컬렉션 프레임워크](docs/05.java_advanced.md#22-컬렉션-프레임워크)
+  + [2.3 Collection 인터페이스](docs/05.java_advanced.md#23-collection-인터페이스)
+  + [2.4 List 인터페이스](docs/05.java_advanced.md#24-list-인터페이스)
+  + [2.5 Set 인터페이스](docs/05.java_advanced.md#25-set-인터페이스)
+  - 💻 실습 (List, Set) [ch02/CollectionTest.java](workspace/04_advanced/ch02/CollectionTest.java)
+
+#### 오후(3시간)
+  + [2.6 Map 인터페이스](docs/05.java_advanced.md#26-map-인터페이스)
+    - 💻 실습 (Map) [ch02/MapTest.java](workspace/04_advanced/ch02/MapTest.java)
+  + [2.7 제네릭(Generic)](docs/05.java_advanced.md#27-제네릭generic)
+    - 💻 실습 (Generic)
+      + [ch02/list/MyList.java](workspace/04_advanced/ch02/MyList.java)
+      + [ch02/list/MyArray.java](workspace/04_advanced/ch02/MyArray.java)
+      + [ch02/list/MyArrayTest.java](workspace/04_advanced/ch02/MyArrayTest.java)
+  - 💻 실습 (Queue) [ch02/queue/QueueTest.java](workspace/04_advanced/ch02/queue/QueueTest.java)
+  - 💻 실습 (Stack) [ch02/queue/StackTest.java](workspace/04_advanced/ch02/queue/StackTest.java)
+  + [프로그래머스 문제 풀이](https://school.programmers.co.kr/learn/challenges/training?order=acceptance_desc&languages=java)
+
+</details>
+
+<details>
+<summary><h3>27일차(2026.06.24 수)</h3></summary>
+
+#### 오전(3시간)
+- HTML/CSS
+
+#### 오후(3시간)
+- HTML/CSS
+
+</details>
+
+<details>
+<summary><h3>28일차(2026.06.25 목)</h3></summary>
+
+#### 오전(3시간)
+- HTML/CSS
+
+#### 오후(3시간)
+- HTML/CSS
+
+</details>
+
+<details>
+<summary><h3>29일차(2026.06.29 월)</h3></summary>
+
+#### 오전(3시간)
+- HTML/CSS
+
+#### 오후(3시간)
+- HTML/CSS
+
+</details>
+
+<details>
+<summary><h3>30일차(2026.06.30 화)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+</details>
+
 </details>
 
 # 1. 개발 환경 구축
@@ -602,8 +676,8 @@ java --version
 - java 실습 폴더 생성 후 이동
 ```bash
 # mkdir java_본인이니셜
-mkdir java_yong
-cd java_yong
+mkdir java-yong
+cd java-yong
 ```
 
 ##### 3. 코드를 작성할 폴더 생성 후 이동
@@ -683,7 +757,7 @@ Hello World!!!
 <img src="images/intellij/07.png" width="320">
 <img src="images/intellij/08.png" width="480">
 
-##### 2. Open > java_yong
+##### 2. Open > java-yong
 - [[2. java 실습 폴더 생성]](#2-java-실습-폴더-생성)에서 생성한 폴더 선택
 
 
