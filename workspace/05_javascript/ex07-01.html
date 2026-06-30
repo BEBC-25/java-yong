@@ -8,20 +8,33 @@
     /*
     산술 연산자 +, -, *, /, %, **
     */
-
-    
+    let age1 = 1 + 4; // 5
+    let age2 = 1 + 4 * 5; // 21
+    let age3 = (1 + 4) * 5; // 25
+    let age4 = 9 / 4 ; // 2.25
+    let age5 = 9 % 4; // 1 (%, 나머지 연산자)
+    let age6 = 2 ** 3; // 8 (** 거듭제곱 연산자)
+    let age7 = '나이는 ' + age1 + ' 입니다.'; // 나이는 5 입니다. (+, 결합 연산자)
+    console.log(age1, age2, age3, age4, age5, age6, age7);
 
     /*
     대입 연산자 =, +=, -=, *=, /=, %=, **=
     */
-
-    
+    let age = 20;
+    let year = 3 + 2; // year = 5
+    age = age + year; // age = 20 + 5 = 25
+    age += year; // age = age + year = 25 + 5 = 30
+    console.log(age, year);
 
     /*
     비교 연산자 >, >=, <, <=, ==, !=, ===, !==
     */
-
-    
+    let result1 = 1 > 2; // false
+    let result2 = 10 <= 10; // true
+    let result3 = 100 == '100'; // true
+    let result4 = 100 === '100'; // false
+    let result5 = 100 != 100; // false
+    console.log(result1, result2, result3, result4, result5);
 
     /*
     동등 연산자와 일치 연산자 차이
