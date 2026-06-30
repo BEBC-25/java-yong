@@ -609,6 +609,78 @@
 <summary><h3>30일차(2026.06.30 화)</h3></summary>
 
 #### 오전(3시간)
+- [1. 자바스크립트란?](docs/05.javascript.md#1-자바스크립트란)
+- [2. 자바스크립트 시작하기](docs/05.javascript.md#2-자바스크립트-시작하기)
+  - 💻 실습 (02-01 자바스크립트 실행)
+    + [ex02-01.html](workspace/05_javascript/ex02-01.html)
+    + [ex02-01.js](workspace/05_javascript/ex02-01.js)
+- [3. 명령문과 주석](docs/05.javascript.md#3-명령문과-주석)
+  - 💻 실습 (03-01 명령문과 주석): [ex03-01.html](workspace/05_javascript/ex03-01.html)
+- [4. 변수](docs/05.javascript.md#4-변수)
+- [5. 리터럴(literal)](docs/05.javascript.md#5-리터럴literal)
+  - 💻 실습 (05-01 변수 선언과 리터럴): [ex05-01.html](workspace/05_javascript/ex05-01.html)
+
+#### 오후(3시간)
+- [6. 데이터 타입](docs/05.javascript.md#6-데이터-타입)
+- [7. 연산자](docs/05.javascript.md#7-연산자)
+  - 💻 실습 (07-01 연산자): [ex07-01.html](workspace/05_javascript/ex07-01.html)
+- [8. 조건문](docs/05.javascript.md#8-조건문)
+  - 💻 실습 (08-01 if, switch): [ex08-01.html](workspace/05_javascript/ex08-01.html)
+- [9. 반복문](docs/05.javascript.md#9-반복문)
+  - 💻 실습 (09-01 while, for): [ex09-01.html](workspace/05_javascript/ex09-01.html)
+- [10. 참조 타입(Object, 객체)](docs/05.javascript.md#10-참조-타입object-객체)
+  - 💻 실습 (10-01 객체 없이 사용자 정보 저장): [ex10-01.html](workspace/05_javascript/ex10-01.html)
+  - 💻 실습 (10-02 new Object() - 생성자 함수로 객체 생성): [ex10-02.html](workspace/05_javascript/ex10-02.html)
+  - 💻 실습 (10-03 리터럴 방식으로 객체 생성): [ex10-03.html](workspace/05_javascript/ex10-03.html)
+- [11. 참조 타입(Array, 배열)](docs/05.javascript.md#11-참조-타입array-배열)
+  - 💻 실습 (11-01 배열 생성, 읽기, 쓰기): [ex11-01.html](workspace/05_javascript/ex11-01.html)
+</details>
+
+</details>
+
+<details>
+<summary><h2>7주차 - 2026.07.01(수) ~ 2026.07.07(화)</h2></summary>
+
+<details>
+<summary><h3>31일차(2026.07.01 수)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>32일차(2026.07.02 목)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>33일차(2026.07.03 금)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>34일차(2026.07.06 월)</h3></summary>
+
+#### 오전(3시간)
+
+#### 오후(3시간)
+
+</details>
+
+<details>
+<summary><h3>35일차(2026.07.07 화)</h3></summary>
+
+#### 오전(3시간)
 
 #### 오후(3시간)
 
