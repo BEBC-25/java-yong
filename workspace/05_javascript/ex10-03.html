@@ -20,9 +20,9 @@
 
     // 객체 리터럴로 namu 객체 생성과 함께 속성 추가
     const namu = {
-      name: '나무',
+      "name": '나무',
       age: 9,
-      hobby: '먹기'
+      hobby: "먹기"
     };
 
     console.log(namu.name, namu.age, namu.hobby);
@@ -35,9 +35,14 @@
     console.log(haru, namu);
 
     // 객체를 JSON 형태의 문자열로 변환
+    const haruStr = JSON.stringify(haru);
+    console.log(haruStr.age);
+    console.log(typeof haruStr, haruStr);
 
     // JSON 형태의 문자열을 객체로 변환
-    
+    const haruObj = JSON.parse(haruStr);
+    console.log(haruObj.age);
+    console.log(typeof haruObj, haruObj);
 
   </script>
 </head>
