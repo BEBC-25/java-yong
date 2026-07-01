@@ -5,7 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>회원 가입</title>
   <style>
-    
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-label {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="password"], select {
+      width: 120px;
+      padding: 5px;
+    }
+    .gender-group, .agree-group {
+      display: inline-block;
+    }
+    button {
+      padding: 4px 12px;
+      font-weight: bold;
+    }
+
   </style>
 </head>
 <body>
@@ -65,7 +88,8 @@
       const userId = document.querySelector('#userId');
       console.log('아이디 변경됨', userId.value);
       // 현재 입력된 id와 중복 체크했던 id를 비교
-      if(userId.value.trim() !== checkedId){
+      if(checkedId && userId.value.trim() !== checkedId){
+        isIdChecked = false;
         alert('아이디 중복 체크를 완료해주세요.');
       }
     }
