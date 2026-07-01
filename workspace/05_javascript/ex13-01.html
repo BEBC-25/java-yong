@@ -11,11 +11,11 @@
 <body>
   <h1>회원 가입</h1>
   
-  <form id="joinForm" action="/join" method="POST">
+  <form id="joinForm" onsubmit="join(event)" action="/join" method="POST">
     <div class="form-group">
       <label for="userId" class="form-label">아이디</label>
       <input type="text" id="userId" name="userId" placeholder="아이디 입력">
-      <button type="button">중복 체크</button>
+      <button type="button" onclick="checkId()">중복 체크</button>
     </div>
     
     <div class="form-group">
@@ -57,8 +57,64 @@
   <script>
     // 아이디 중복 체크
     function checkId() {
-      const userId = document.querySelector();
-      
+      console.log('중복 체크 시작');
+      // 입력한 id를 꺼내서 중복 여부를 체크한다.
+      const userIdEl = document.querySelector('#userId');
+      const userId = userIdEl.value;
+      console.log('입력한 id', userId);
+      if(userId.trim() === ''){
+        alert('아이디를 먼저 입력하세요.');
+        userIdEl.value = '';
+        userIdEl.focus();
+        return;
+      }
+      alert('사용 가능한 아이디입니다.');
+    }
+
+    // 회원 가입 처리
+    function join(event){
+      console.log('회원 가입 요청');
+      console.log(event);
+      // 브라우저의 기본 동작 취소(submit 이벤트의 기본 동작인 서버로 데이터를 전송하는 작업 취소)
+      event.preventDefault();
+
+      // 1. 아이디 검증
+      // HTML 요소 중 id가 'userId'인 요소를 찾는다.
+      const userId = document.querySelector('#userId');
+      if(userId.value.trim() === ''){
+        alert('아이디를 입력하세요.');
+        userId.value = '';
+        userId.focus();
+        return;
+      }
+
+      // 2. 중복 체크 여부 검증
+
+
+      // 3. 비밀번호 검증
+      // HTML 요소 중 id가 'userPwd'인 요소를 찾는다.
+      const userPwd = document.querySelector('#userPwd');
+      if(userPwd.value.trim() === ''){
+        alert('비밀번호를 입력하세요.');
+        userPwd.value = '';
+        userPwd.focus();
+        return;
+      }
+
+      // 4. 직업 선택 검증
+      // HTML 요소 중 id가 'job'인 요소를 찾는다.
+      const userPwd = document.querySelector('#job');
+      if(userPwd.value.trim() === ''){
+        alert('비밀번호를 입력하세요.');
+        userPwd.value = '';
+        userPwd.focus();
+        return;
+      }
+
+      // 5. 약관 동의 검증
+
+
+      alert('회원 가입 요청 완료.');
     }
   </script>
 </body>
