@@ -1,16 +1,18 @@
 package ch03;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 // 3. 파일(output.txt) -> 표준출력장치(콘솔)
 public class FileToConsole {
     void main(){
-        try{
-            // 표준 입력 장치로 부터 1byte 읽어온다.
+        try(
+                InputStream fis = new FileInputStream("output.txt")
+        ){
             int readData = 0;
-
-            while((readData = System.in.read()) != -1){
-                // 표준 출력 장치로 1byte 출력한다.
+            while((readData = fis.read()) != -1){
                 System.out.write(readData);
             }
         }catch(IOException e){
