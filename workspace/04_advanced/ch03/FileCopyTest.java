@@ -7,9 +7,9 @@ public class FileCopyTest {
     void main(){
         long start = System.currentTimeMillis();
 
-        copyFile("lib/mysql-connector-j-9.7.0.jar", "mysql-connector-j-9.7.0.jar");
+//        copyFile("lib/mysql-connector-j-9.7.0.jar", "mysql-connector-j-9.7.0.jar");
 //        copyFileUseBuffer("lib/mysql-connector-j-9.7.0.jar", "mysql-connector-j-9.7.0.jar");
-//        copyFileCustomBuffer("lib/mysql-connector-j-9.7.0.jar", "mysql-connector-j-9.7.0.jar");
+        copyFileCustomBuffer("lib/mysql-connector-j-9.7.0.jar", "mysql-connector-j-9.7.0.jar");
 
         long end = System.currentTimeMillis();
         System.out.println("소요시간: " + (end-start) + "ms");
@@ -41,12 +41,12 @@ public class FileCopyTest {
      */
     void copyFileUseBuffer(String org, String dest){
         try(
-                InputStream bis = new BufferedInputStream(new FileInputStream(org));
-                OutputStream bos = new BufferedOutputStream(new FileOutputStream(dest))
+                InputStream fis = new BufferedInputStream(new FileInputStream(org)); // 8KB의 버퍼를 사용
+                OutputStream fos = new BufferedOutputStream(new FileOutputStream(dest))
         ){
             int readData = 0;
-            while((readData = bis.read()) != -1){
-                bos.write(readData);
+            while((readData = fis.read()) != -1){
+                fos.write(readData);
             }
         }catch(IOException e){
             System.err.println("입출력 예외 발생: " + e.getMessage());
