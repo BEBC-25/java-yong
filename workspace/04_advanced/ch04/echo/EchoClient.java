@@ -7,8 +7,8 @@ public class EchoClient {
     void startClient(){
         try(
                 // 서버에 접속 요청(localhost:50000)
-//                Socket s = new Socket("localhost", 50000);
-                Socket s = new Socket("dain2.iptime.org", 50000);
+                Socket s = new Socket("localhost", 50000);
+//                Socket s = new Socket("dain2.iptime.org", 50000);
                 // Socket에서 데이터를 읽을 수 있는 InputStream 생성
                 InputStream in = s.getInputStream();
                 // Socket으로 데이터를 전송할 수 있는 OutputStream 생성
