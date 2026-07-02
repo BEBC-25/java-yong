@@ -645,8 +645,18 @@
 <summary><h3>31일차(2026.07.01 수)</h3></summary>
 
 #### 오전(3시간)
-
+- [12. 함수](docs/06.javascript.md#12-함수)
+  - 💻 실습 (12-01 화살표 함수): [ex12-01.html](workspace/05_javascript/ex12-01.html)
+- [13. 이벤트와 브라우저 제어](docs/06.javascript.md#13-이벤트와-브라우저-제어)
+  - 💻 실습 (13-01 회원 가입 폼 검증): [ex13-01.html](workspace/05_javascript/ex13-01.html)
+  
 #### 오후(3시간)
+- [14. DOM (Document Object Model)](docs/06.javascript.md#14-dom-document-object-model)
+  - 💻 실습 (14-01 게시글 등록 폼 검증): [ex14-01.html](workspace/05_javascript/ex14-01.html)
+  - 💻 실습 (네이버 로그인 폼 검증)
+    + [login/login.html](workspace/05_javascript/login/login.html)
+    + [login/login.css](workspace/05_javascript/login/login.css)
+    + [login/login.js](workspace/05_javascript/login/login.js)
 
 </details>
 
