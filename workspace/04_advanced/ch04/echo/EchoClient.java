@@ -9,17 +9,20 @@ public class EchoClient {
                 // 서버에 접속 요청(localhost:50000)
                 Socket s = new Socket("localhost", 50000);
 //                Socket s = new Socket("dain2.iptime.org", 50000);
-                // Socket에서 데이터를 읽을 수 있는 InputStream 생성
-                InputStream in = s.getInputStream();
-                // Socket으로 데이터를 전송할 수 있는 OutputStream 생성
-                OutputStream out = s.getOutputStream()
         ){
+            // 키보드에서 줄단위로 읽기 위한 스트림
+            BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
+            // Socket에서 데이터를 읽을 수 있는 스트림 생성
+            BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+            // Socket으로 데이터를 전송할 수 있는 스트림 생성
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream()), true);
+            
             System.out.println("서버 접속 완료.");
-            int readData = 0;
-            while((readData = System.in.read()) != -1){
-                out.write(readData);
-                int echoData = in.read();
-                System.out.write(echoData);
+            String readData = "";
+            while((readData = key.readLine()) != null){
+                out.println(readData);
+                String echoData = in.readLine();
+                System.out.println(echoData);
             }
         }catch(IOException e){
             System.err.println("네트워크 오류 발생: " + e.getMessage());

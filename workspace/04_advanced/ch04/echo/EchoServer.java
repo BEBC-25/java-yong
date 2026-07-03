@@ -19,14 +19,15 @@ public class EchoServer {
             System.out.println("클라이언트 접속: " + s.getInetAddress().getHostAddress());
 
             // 클라이언트의 메세지를 수신하는 InputStream 생성
-            InputStream in = s.getInputStream();
+            BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
             // 클라이언트에 메세지를 송신하는 OutputStream 생성
-            OutputStream out = s.getOutputStream();
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream()), true);
 
-            int readData = 0;
-            while((readData = in.read()) != -1){
-                out.write(readData); // 클라이언트에 메세지 반송
-                System.out.write(readData); // 클라이언트의 메세지를 서버에도 출력
+            String readData = "";
+            while((readData = in.readLine()) != null){
+                out.println("서버의 응답: " + readData); // 클라이언트에 메세지 반송
+//                out.flush(); // 버퍼의 모든 내용을 출력하고 버퍼를 비움
+                System.out.println(readData); // 클라이언트의 메세지를 서버에도 출력
             }
         }catch(IOException e){
             System.err.println("네트워크 오류: " + e.getMessage());
