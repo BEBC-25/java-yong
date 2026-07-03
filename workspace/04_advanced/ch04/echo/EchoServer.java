@@ -25,7 +25,6 @@ public class EchoServer {
 
             String readData = "";
             while((readData = in.readLine()) != null){
-                System.out.println("수신 메세지: " + readData);
                 out.println("서버의 응답: " + readData); // 클라이언트에 메세지 반송
 //                out.flush(); // 버퍼의 모든 내용을 출력하고 버퍼를 비움
                 System.out.println(readData); // 클라이언트의 메세지를 서버에도 출력
