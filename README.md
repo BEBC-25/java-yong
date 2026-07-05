@@ -664,17 +664,36 @@
 <summary><h3>32일차(2026.07.02 목)</h3></summary>
 
 #### 오전(3시간)
+- [3. 자바 입출력(I/O)](docs/05.java_advanced.md#3-자바-입출력io)
+  + [3.1 입출력의 개념과 데이터 흐름](docs/05.java_advanced.md#31-입출력의-개념과-데이터-흐름)
+  + [3.2 입출력 클래스의 분류 체계](docs/05.java_advanced.md#32-입출력-클래스의-분류-체계)
+  + [3.3 InputStream과 OutputStream의 주요 메서드](docs/05.java_advanced.md#33-inputstream과-outputstream의-주요-메서드)
+  + [3.4 파일 입출력 클래스](docs/05.java_advanced.md#34-파일-입출력-클래스)
+  + [3.5 표준 입출력 장치](docs/05.java_advanced.md#35-표준-입출력-장치)
+  + [3.6 입출력 예외와 자원 누수 대처](docs/05.java_advanced.md#36-입출력-예외와-자원-누수-대처)
 
 #### 오후(3시간)
-
+- [4. 자바 네트워크 프로그래밍](docs/05.java_advanced.md#4-자바-네트워크-프로그래밍)
+  + [4.1 네트워크 기초](docs/05.java_advanced.md#41-네트워크-기초)
+  + [4.2 TCP 소켓 통신](docs/05.java_advanced.md#42-tcp-소켓-통신)
+  + [4.3 멀티스레드 다중 접속 서버](docs/05.java_advanced.md#43-멀티스레드-다중-접속-서버)
+  
 </details>
 
 <details>
 <summary><h3>33일차(2026.07.03 금)</h3></summary>
 
 #### 오전(3시간)
+- [5. 멀티스레드(Multi-Thread)](docs/05.java_advanced.md#5-멀티스레드multi-thread)
+  + [5.1 프로세스와 스레드](docs/05.java_advanced.md#51-프로세스와-스레드)
+  + [5.2 Thread 클래스](docs/05.java_advanced.md#52-thread-클래스)
+  + [5.3 스레드 생성과 실행](docs/05.java_advanced.md#53-스레드-생성과-실행)
+
+- 💻 실습 (싱글스레드 프로그래밍) [ch05/single](workspace/04_advanced/ch05/single)
+- 💻 실습 (멀티스레드 프로그래밍) [ch05/multi](workspace/04_advanced/ch05/multi)
 
 #### 오후(3시간)
+- 💻 실습 (멀티스레드 방식의 에코 서버) [ch04/echo/multi](workspace/04_advanced/ch04/echo/multi)
 
 </details>
 
