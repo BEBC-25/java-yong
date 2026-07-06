@@ -668,14 +668,20 @@
   + [3.1 입출력의 개념과 데이터 흐름](docs/05.java_advanced.md#31-입출력의-개념과-데이터-흐름)
   + [3.2 입출력 클래스의 분류 체계](docs/05.java_advanced.md#32-입출력-클래스의-분류-체계)
   + [3.3 InputStream과 OutputStream의 주요 메서드](docs/05.java_advanced.md#33-inputstream과-outputstream의-주요-메서드)
+  - 💻 실습 (표준 입력 장치 -> 표준 출력 장치): [ch03/KeyboardToConsole.java](workspace/04_advanced/ch03/KeyboardToConsole.java)
   + [3.4 파일 입출력 클래스](docs/05.java_advanced.md#34-파일-입출력-클래스)
+  - 💻 실습 (표준 입력 장치 -> 파일): [ch03/KeyboardToFile.java](workspace/04_advanced/ch03/KeyboardToFile.java)
+  - 💻 실습 (파일 -> 표준 출력 장치): [ch03/FileToConsole.java](workspace/04_advanced/ch03/FileToConsole.java)
+  - 💻 실습 (파일 -> 파일): [ch03/FileToFile.java](workspace/04_advanced/ch03/FileToFile.java)
   + [3.5 표준 입출력 장치](docs/05.java_advanced.md#35-표준-입출력-장치)
   + [3.6 입출력 예외와 자원 누수 대처](docs/05.java_advanced.md#36-입출력-예외와-자원-누수-대처)
+  - 💻 실습 (파일 복사 성능 테스트): [ch03/FileCopyTest.java](workspace/04_advanced/ch03/FileCopyTest.java)
 
 #### 오후(3시간)
 - [4. 자바 네트워크 프로그래밍](docs/05.java_advanced.md#4-자바-네트워크-프로그래밍)
   + [4.1 네트워크 기초](docs/05.java_advanced.md#41-네트워크-기초)
   + [4.2 TCP 소켓 통신](docs/05.java_advanced.md#42-tcp-소켓-통신)
+  - 💻 실습 (에코 서버): [ch04/echo](workspace/04_advanced/ch04/echo)
   + [4.3 멀티스레드 다중 접속 서버](docs/05.java_advanced.md#43-멀티스레드-다중-접속-서버)
   
 </details>
@@ -701,8 +707,22 @@
 <summary><h3>34일차(2026.07.06 월)</h3></summary>
 
 #### 오전(3시간)
+  + [5.4 스레드 스케줄링과 컨텍스트 스위칭](docs/05.java_advanced.md#54-스레드-스케줄링과-컨텍스트-스위칭)
+  + [5.5 스레드 동기화](docs/05.java_advanced.md#55-스레드-동기화)
+  + [5.6 스레드 안전성 확보](docs/05.java_advanced.md#56-스레드-안전성-확보)
+  - 💻 실습 (synchronized를 이용한 스레드 안전성 확보) [ch05/list](workspace/04_advanced/ch05/list)
+  + [5.7 가상 스레드(Virtual Thread)](docs/05.java_advanced.md#57-가상-스레드virtual-thread)
+  - 💻 실습 (가상 스레드) [ch05/virtual](workspace/04_advanced/ch05/virtual)
 
 #### 오후(3시간)
+- [6. 모던 자바 - 람다식(Lambda Expression)과 어노테이션(Annotation)](docs/05.java_advanced.md#6-모던-자바---람다식lambda-expression과-어노테이션annotation)
+  + [6.1 람다식(Lambda Expression) 개요](docs/05.java_advanced.md#61-람다식lambda-expression-개요)
+  + [6.2 람다식(Lambda Expression) 문법](docs/05.java_advanced.md#62-람다식lambda-expression-문법)
+  + [6.3 표준 함수형 인터페이스](docs/05.java_advanced.md#63-표준-함수형-인터페이스)
+  + [6.4 메서드 참조(Method Reference)](docs/05.java_advanced.md#64-메서드-참조method-reference)
+  - 💻 실습 (람다식) [ch06/lambda](workspace/04_advanced/ch06/lambda)
+  + [6.5 어노테이션(Annotation)](docs/05.java_advanced.md#65-어노테이션annotation)
+  - 💻 실습 (어노테이션) [ch06/annotation](workspace/04_advanced/ch06/annotation)
 
 </details>
 
