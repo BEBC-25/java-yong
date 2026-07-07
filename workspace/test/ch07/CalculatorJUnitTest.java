@@ -1,19 +1,22 @@
 package ch07;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorJUnitTest {
-    private Calculator calc;
+    private static Calculator calc;
 
-    @BeforeEach
-    void setUp(){
+    @BeforeAll
+    static void setUp(){
         calc = new Calculator();
     }
+
+//    @BeforeEach
+//    void setUp(){
+//        calc = new Calculator();
+//    }
 
     @Test
     @DisplayName("두 정수의 덧셈 검증 2, 3")
@@ -29,13 +32,12 @@ public class CalculatorJUnitTest {
         assertEquals(7, result, "덧셈의 결과는 7이여야 함");
     }
 
+    @Test
+    @DisplayName("두 정수의 나눗셈 검증 10, 6")
+    @Disabled
     void divide(){
         double result = calc.divide(10, 6); // 소수 세째자리에서 반올림
-        if(result == 1.67){ // 기대값은 1.67, 기대값과 실제값을 비교해서 일치하면 성공, 아니면 실패
-            System.out.println("두 정수의 나눗셈 검증 성공");
-        }else{
-            System.err.println("10/6은 1.67이 되어야 함. " + result);
-        }
+        assertEquals(1.67, result);
     }
 
     @Test
