@@ -12,5 +12,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 // 지정된 메서드의 실행 시간을 출력하는 어노테이션
 public @interface MeasureTime {
-
+    // 어노테이션의 taskName 속성 정의
+    // default가 있으면 선택 사항이 됨
+    String taskName() default "";
 }
