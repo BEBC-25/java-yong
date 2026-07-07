@@ -730,8 +730,16 @@
 <summary><h3>35일차(2026.07.07 화)</h3></summary>
 
 #### 오전(3시간)
-
+- [7. 소프트웨어 품질과 TDD 철학](#7-소프트웨어-품질과-tdd-철학)
+  + [7.1 단위 테스트와 통합 테스트](#71-단위-테스트와-통합-테스트)
+    - 💻 실습 (JUnit 없이 단위테스트 작성)
+      + [ch07/Calculator.java](workspace/04_advanced/ch07/Calculator.java)
+      + [test/ch07/CalculatorTest.java](workspace/test/ch07/CalculatorTest.java)
 #### 오후(3시간)
+  + [7.2 JUnit 5 프레임워크 기초](#72-junit-5-프레임워크-기초)
+    - 💻 실습 (JUnit을 이용한 단위테스트 작성) [test/ch07/CalculatorJUnitTest.java](workspace/test/ch07/CalculatorJUnitTest.java)
+  + [7.3 TDD 3단계 사이클과 구현 전략](#73-tdd-3단계-사이클과-구현-전략)
+  + [7.4 TDD 도입과 아키텍처 개선](#74-tdd-도입과-아키텍처-개선)
 
 </details>
 
